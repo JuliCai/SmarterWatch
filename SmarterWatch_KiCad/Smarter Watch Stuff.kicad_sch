@@ -258,6 +258,48 @@
 		)
 	)
 	(sheet
+		(at 90.17 91.44)
+		(size 33.02 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "596be1bd-3875-49a3-8dbd-4c169cd37f92")
+		(property "Sheetname" "Skin Temp"
+			(at 90.17 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Skin.kicad_sch"
+			(at 90.17 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 12.7)
 		(size 25.4 31.75)
 		(exclude_from_sim no)
