@@ -300,6 +300,48 @@
 		)
 	)
 	(sheet
+		(at 50.8 130.81)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64b56c59-94b5-4fcd-a1b7-d29a8b43cdbf")
+		(property "Sheetname" "Baromater"
+			(at 50.8 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BARO.kicad_sch"
+			(at 50.8 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 12.7)
 		(size 25.4 31.75)
 		(exclude_from_sim no)
