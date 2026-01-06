@@ -552,6 +552,48 @@
 		)
 	)
 	(sheet
+		(at 88.9 129.54)
+		(size 34.29 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9a66531-3de1-40e3-a748-3f34f0ced924")
+		(property "Sheetname" "Magnetometer"
+			(at 88.9 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetometer.kicad_sch"
+			(at 88.9 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 95.25 52.07)
 		(size 27.94 34.29)
 		(exclude_from_sim no)
