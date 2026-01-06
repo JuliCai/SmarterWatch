@@ -594,6 +594,48 @@
 		)
 	)
 	(sheet
+		(at 132.08 16.51)
+		(size 38.1 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9fa46c4-d87c-4f12-b237-f801e8270b19")
+		(property "Sheetname" "Lightning"
+			(at 132.08 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lightning.kicad_sch"
+			(at 132.08 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 95.25 52.07)
 		(size 27.94 34.29)
 		(exclude_from_sim no)

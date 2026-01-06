@@ -785,6 +785,10 @@
     [
       "b9a66531-3de1-40e3-a748-3f34f0ced924",
       "Magnetometer"
+    ],
+    [
+      "b9fa46c4-d87c-4f12-b237-f801e8270b19",
+      "Lightning"
     ]
   ],
   "text_variables": {}
