@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 134.62 53.34)
+		(size 40.64 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "12ab34e0-335f-4682-992c-207f5bc7dd03")
+		(property "Sheetname" "CO2"
+			(at 134.62 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CO2.kicad_sch"
+			(at 134.62 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 13.97 160.02)
 		(size 36.83 38.1)
 		(exclude_from_sim no)
