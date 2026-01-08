@@ -552,6 +552,48 @@
 		)
 	)
 	(sheet
+		(at 137.16 97.79)
+		(size 35.56 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7d1cf48-cec0-4485-89d4-6b86e8a98aaa")
+		(property "Sheetname" "Level Shifter"
+			(at 137.16 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Level_Shifter.kicad_sch"
+			(at 137.16 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 116.84 161.29)
 		(size 27.94 35.56)
 		(exclude_from_sim no)
