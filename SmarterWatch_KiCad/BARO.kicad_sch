@@ -782,7 +782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ENS220S-BLGT:XDCR_ENS220S-BLGT"
+		(property "Footprint" "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
 			(at 138.43 107.95 0)
 			(effects
 				(font

@@ -5,6 +5,156 @@
 	(uuid "8a646742-a905-4c20-9903-b4593d16af08")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Custom:OpenJumper"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OpenJumper_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.016 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "OpenJumper_1_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.778) (xy -1.016 -3.302) (xy 0.762 -3.302) (xy 0.762 -3.048) (xy -0.254 -3.048) (xy -0.254 -2.032)
+						(xy 0.762 -2.032) (xy 0.762 -1.778) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.254 -1.778)
+					(end 0.762 -2.032)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -2.54) (xy 1.778 -1.778) (xy 1.016 -1.778) (xy 1.016 -2.286) (xy 0 -2.286) (xy 0 -2.794)
+						(xy 1.016 -2.794) (xy 1.016 -3.302) (xy 1.778 -3.302) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -358,88 +508,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Solder_pad_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J1"
-				(at 2.54 -1.9049 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "~"
-				(at 2.54 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Solder_pad_1_1_1"
-				(circle
-					(center 0 -2.54)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -686,6 +754,12 @@
 		(uuid "5445a7ff-5192-4f80-8b77-f91fd0ce8916")
 	)
 	(junction
+		(at 123.19 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8e9150e-a79a-43b5-a241-59d45699a879")
+	)
+	(junction
 		(at 127 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -703,6 +777,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 66.04) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f74033-8878-4b9d-b249-95f5bb69f9f8")
+	)
+	(wire
+		(pts
+			(xy 130.81 66.04) (xy 130.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f207d7-3cc7-4503-9431-35a4959ba31c")
+	)
+	(wire
+		(pts
 			(xy 138.43 83.82) (xy 138.43 81.28)
 		)
 		(stroke
@@ -710,6 +804,16 @@
 			(type default)
 		)
 		(uuid "34a06403-d113-4cf5-8020-1938fb153d3b")
+	)
+	(wire
+		(pts
+			(xy 115.57 66.04) (xy 123.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430675e6-2d02-455e-a28c-8a11191d3aaf")
 	)
 	(wire
 		(pts
@@ -730,6 +834,16 @@
 			(type default)
 		)
 		(uuid "5899f2b1-ed14-4e28-b046-34c5f64ad191")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 130.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62342793-b3dd-4046-a1a7-0fd4999d6652")
 	)
 	(wire
 		(pts
@@ -763,6 +877,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 62.23) (xy 123.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79799bc2-3173-4747-9ea1-823735b30932")
+	)
+	(wire
+		(pts
 			(xy 118.11 93.98) (xy 127 93.98)
 		)
 		(stroke
@@ -780,6 +904,16 @@
 			(type default)
 		)
 		(uuid "81faedd5-a0ee-4df8-9c93-f09b454bdf45")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8214b288-996d-4056-877c-3bc3be0a2b95")
 	)
 	(wire
 		(pts
@@ -922,6 +1056,140 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:OpenJumper")
+		(at 118.11 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b316e95-1030-48c4-af68-af05d6157ef3")
+		(property "Reference" "U26"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37e3ad41-5467-4081-8f28-ce495a446381")
+		)
+		(pin "2"
+			(uuid "8ad15e35-80e2-4034-9794-bcf1761a6850")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
+					(reference "U26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 123.19 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55449e0c-0371-4cc3-a95e-04cffa8275f9")
+		(property "Reference" "#PWR0101"
+			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 123.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4e9dc7e-c291-41f4-af27-12d54cfea16e")
+		)
+		(instances
+			(project ""
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
+					(reference "#PWR0101")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1194,74 +1462,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Solder_pad_1")
-		(lib_id "SmarterWatch_symbols_j:Solder_pad")
-		(at 113.03 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e56ddbb-be52-4466-a971-9f9405082452")
-		(property "Reference" "J4"
-			(at 118.11 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 118.11 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c86adb76-e5d1-4715-8705-aac49ccfed6c")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 148.59 93.98 90)
 		(unit 1)
@@ -1323,74 +1523,6 @@
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Solder_pad_1")
-		(lib_id "SmarterWatch_symbols_j:Solder_pad")
-		(at 128.27 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a53008cd-fb4e-4ce0-80b3-5835f757fa7b")
-		(property "Reference" "J6"
-			(at 133.35 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 133.35 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c62e43fd-c2b3-472a-a7bf-5fb1d61b9cb8")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1464,36 +1596,33 @@
 		)
 	)
 	(symbol
-		(lib_name "Solder_pad_1")
-		(lib_id "SmarterWatch_symbols_j:Solder_pad")
-		(at 120.65 74.93 90)
+		(lib_id "Custom:OpenJumper")
+		(at 133.35 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb17537f-a16d-4c0c-9957-0d597f5515fc")
-		(property "Reference" "J5"
-			(at 125.73 73.6599 90)
+		(uuid "c2a48345-e826-4825-960d-516d9f380e44")
+		(property "Reference" "U24"
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 125.73 76.1999 90)
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-			(at 120.65 74.93 0)
+		(property "Footprint" ""
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 74.93 0)
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 74.93 0)
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,12 +1649,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6df7a60-98c6-4dfd-adcb-b1797f5058aa")
+			(uuid "849006f4-64b6-4ad9-a8c7-291c6ea7a843")
+		)
+		(pin "2"
+			(uuid "464236d9-40e1-45e4-b376-db7d8c95c7d9")
 		)
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "J5")
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -1681,6 +1813,74 @@
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:OpenJumper")
+		(at 125.73 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddb344d5-2f00-4a60-8fc2-be388937cd85")
+		(property "Reference" "U25"
+			(at 128.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88c8197f-6a7b-4603-a42c-63793a467a73")
+		)
+		(pin "2"
+			(uuid "d5ab2357-bc97-4b8e-80db-ef957b703b0c")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
+					(reference "U25")
 					(unit 1)
 				)
 			)

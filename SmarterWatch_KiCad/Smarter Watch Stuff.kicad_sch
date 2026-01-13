@@ -357,7 +357,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "64b56c59-94b5-4fcd-a1b7-d29a8b43cdbf")
-		(property "Sheetname" "Baromater"
+		(property "Sheetname" "Barometer"
 			(at 50.8 130.0984 0)
 			(effects
 				(font
