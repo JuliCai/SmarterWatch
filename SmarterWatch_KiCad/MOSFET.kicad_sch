@@ -868,7 +868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03614a80-2487-4994-bfa1-45f9bb988a1d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -918,7 +918,7 @@
 		(instances
 			(project ""
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/4e6e0c31-a114-41a6-91d2-e39a92f1b389"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1237,7 +1237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d2cbd51-f710-4f65-a8ca-a05e58a03014")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 124.46 130.81 0)
 			(effects
 				(font
@@ -1287,7 +1287,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/4e6e0c31-a114-41a6-91d2-e39a92f1b389"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
