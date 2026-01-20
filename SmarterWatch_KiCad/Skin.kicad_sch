@@ -1381,7 +1381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0137_T833+2_MXM"
+		(property "Footprint" ""
 			(at 99.06 93.98 0)
 			(effects
 				(font

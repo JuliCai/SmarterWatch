@@ -898,7 +898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
+		(property "Footprint" ""
 			(at 149.86 107.95 0)
 			(effects
 				(font

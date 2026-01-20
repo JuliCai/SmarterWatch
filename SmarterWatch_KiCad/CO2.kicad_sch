@@ -1501,7 +1501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SGP40-D-R4:XCDR_SGP40-D-R4"
+		(property "Footprint" ""
 			(at 147.32 87.63 0)
 			(effects
 				(font

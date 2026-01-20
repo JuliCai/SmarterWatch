@@ -2463,7 +2463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AS3935-BQFT:QFN65P400X400X80-17N"
+		(property "Footprint" ""
 			(at 149.86 92.71 0)
 			(effects
 				(font

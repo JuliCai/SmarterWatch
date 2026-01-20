@@ -997,7 +997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OptoDevice:AMS_TSL25911FN"
+		(property "Footprint" "TerminalBlock_CUI:SON-06-FN_2000X2400_AMS"
 			(at 129.54 100.33 0)
 			(effects
 				(font

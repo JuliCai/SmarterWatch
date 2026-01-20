@@ -1302,7 +1302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm"
+		(property "Footprint" ""
 			(at 147.32 96.52 0)
 			(effects
 				(font

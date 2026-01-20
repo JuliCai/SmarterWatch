@@ -1034,7 +1034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -1390,7 +1390,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm"
+		(property "Footprint" ""
 			(at 133.35 92.71 0)
 			(effects
 				(font

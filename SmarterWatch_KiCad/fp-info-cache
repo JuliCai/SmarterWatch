@@ -1,4 +1,4 @@
-26778163944224701
+26779932879059286
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100239,6 +100239,13 @@ THT Terminal block Altech AK300 45Degree pitch 5mm size 120x12.5mm drill 1.3mm p
 0
 24
 24
+TerminalBlock_CUI
+SON-06-FN_2000X2400_AMS
+
+TSL25911FN 
+0
+6
+6
 TerminalBlock_CUI
 TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal
 Terminal Block CUI TB007-508-02, 2 pins, pitch 5.08mm, size 10.8x10.2mm, drill diameter 1.6mm, pad diameter 2.4mm, https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
