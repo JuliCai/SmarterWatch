@@ -1766,7 +1766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:DFN8_2x3MC_MCH"
 			(at 143.51 102.87 0)
 			(effects
 				(font
