@@ -1302,7 +1302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:BMI323_BOS"
 			(at 147.32 96.52 0)
 			(effects
 				(font

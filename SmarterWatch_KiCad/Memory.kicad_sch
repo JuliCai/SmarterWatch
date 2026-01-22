@@ -1691,7 +1691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:SOIC127P600X175-8N"
 			(at 138.43 80.01 0)
 			(effects
 				(font

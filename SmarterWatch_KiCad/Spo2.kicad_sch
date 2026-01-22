@@ -1507,7 +1507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:SOT65P210X110-5N"
 			(at 99.06 53.34 0)
 			(effects
 				(font
