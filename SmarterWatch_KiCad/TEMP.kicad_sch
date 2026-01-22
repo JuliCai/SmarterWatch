@@ -786,7 +786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Foot:SON65P200X200X80-7N"
+		(property "Footprint" ""
 			(at 149.86 114.3 0)
 			(effects
 				(font

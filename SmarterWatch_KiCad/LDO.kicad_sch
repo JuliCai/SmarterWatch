@@ -898,7 +898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:SOT-25   SMV_TOS"
 			(at 149.86 107.95 0)
 			(effects
 				(font
