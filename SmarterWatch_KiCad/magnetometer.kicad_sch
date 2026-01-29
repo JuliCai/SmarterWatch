@@ -1272,7 +1272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:MMC5983MA_MEM"
 			(at 97.79 93.98 0)
 			(effects
 				(font

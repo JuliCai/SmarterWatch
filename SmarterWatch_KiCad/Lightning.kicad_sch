@@ -2463,7 +2463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:QFN65P400X400X80-17N"
 			(at 149.86 92.71 0)
 			(effects
 				(font

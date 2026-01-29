@@ -1,4 +1,4 @@
-26804703844098028
+26808260224845136
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59374,6 +59374,20 @@ Jumper_NO
 5
 2
 Custom_Foot
+MMC5983MA_MEM
+
+MMC5983MA 
+0
+16
+16
+Custom_Foot
+QFN65P400X400X80-17N
+
+
+0
+17
+17
+Custom_Foot
 SHTC3_SEN
 
 SHTC3-TR-2.5KS 
@@ -59443,6 +59457,34 @@ Untitled_3
 0
 0
 0
+Custom_Foot
+Untitled_4
+
+
+0
+0
+0
+Custom_Foot
+Untitled_5
+
+
+0
+0
+0
+Custom_Foot
+Untitled_6
+
+
+0
+0
+0
+Custom_Foot
+XCDR_SGP40-D-R4
+
+
+0
+7
+7
 Custom_Foot
 XDCR_MAX30101EFD_
 
@@ -97929,34 +97971,6 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
-Smarter watching stuff foot
-Button_smd_spst
-
-
-0
-2
-2
-Smarter watching stuff foot
-SW_logo
-
-
-0
-0
-0
-Smarter watching stuff foot
-Untitled
-
-
-0
-6
-3
-Smarter watching stuff foot
-Vibration motor
-
-
-0
-6
-3
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
