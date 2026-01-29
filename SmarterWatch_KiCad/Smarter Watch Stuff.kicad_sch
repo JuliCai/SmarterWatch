@@ -48,8 +48,8 @@
 		)
 	)
 	(sheet
-		(at 134.62 53.34)
-		(size 40.64 38.1)
+		(at 129.54 53.34)
+		(size 34.29 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "12ab34e0-335f-4682-992c-207f5bc7dd03")
 		(property "Sheetname" "CO2"
-			(at 134.62 52.6284 0)
+			(at 129.54 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "CO2.kicad_sch"
-			(at 134.62 92.0246 0)
+			(at 129.54 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,7 +552,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 97.79)
+		(at 128.27 92.075)
 		(size 35.56 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -568,7 +568,7 @@
 		)
 		(uuid "a7d1cf48-cec0-4485-89d4-6b86e8a98aaa")
 		(property "Sheetname" "Level Shifter"
-			(at 137.16 97.0784 0)
+			(at 128.27 91.3634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +577,7 @@
 			)
 		)
 		(property "Sheetfile" "Level_Shifter.kicad_sch"
-			(at 137.16 126.3146 0)
+			(at 128.27 120.5996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,7 +636,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 129.54)
+		(at 88.265 127)
 		(size 34.29 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -652,7 +652,7 @@
 		)
 		(uuid "b9a66531-3de1-40e3-a748-3f34f0ced924")
 		(property "Sheetname" "Magnetometer"
-			(at 88.9 128.8284 0)
+			(at 88.265 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +661,7 @@
 			)
 		)
 		(property "Sheetfile" "magnetometer.kicad_sch"
-			(at 88.9 160.6046 0)
+			(at 88.265 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

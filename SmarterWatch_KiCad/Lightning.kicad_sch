@@ -1990,7 +1990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Foot:Jumper_NO"
+		(property "Footprint" ""
 			(at 93.98 100.33 0)
 			(effects
 				(font
@@ -2954,7 +2954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Foot:Jumper_NO"
+		(property "Footprint" ""
 			(at 93.98 92.71 0)
 			(effects
 				(font
