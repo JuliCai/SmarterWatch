@@ -1635,7 +1635,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "IQS323001DNR"
 			(at 130.81 81.28 0)
 			(effects
 				(font

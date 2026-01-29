@@ -1422,7 +1422,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NLA9306MU3TAG"
 			(at 130.81 90.17 0)
 			(effects
 				(font
