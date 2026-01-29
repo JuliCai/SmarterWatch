@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Smarter watching stuff foot")(type "KiCad")(uri "${KIPRJMOD}/Smarter watching stuff foot.pretty")(options "")(descr ""))
+  (lib (name "Smarter watching stuff foot")(type "KiCad")(uri "${KIPRJMOD}/Smarter watching stuff foot.pretty")(options "")(descr "")(disabled))
   (lib (name "Custom_Foot")(type "KiCad")(uri "${KIPRJMOD}/Custom_Foot.pretty")(options "")(descr ""))
 )

@@ -148,25 +148,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 10.795 0)
+			(property "Reference" "U7"
+				(at 15.24 11.5002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Value" "TMP117xxDRV"
-				(at -2.54 8.89 0)
+				(at 15.24 8.9602 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+			(property "Footprint" "Custom_Foot:SON65P200X200X80-7N"
 				(at 1.27 -8.89 0)
 				(effects
 					(font
@@ -435,6 +433,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 6.35 -10.16 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin open_collector line
 					(at 10.16 5.08 180)
 					(length 2.54)
@@ -559,6 +575,12 @@
 		)
 	)
 	(junction
+		(at 148.59 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cef9452-33b5-4289-9e29-feb01cb86d49")
+	)
+	(junction
 		(at 148.59 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -567,6 +589,16 @@
 	(no_connect
 		(at 158.75 100.33)
 		(uuid "0082a3fb-17e5-4db9-8809-bf7cfad97034")
+	)
+	(wire
+		(pts
+			(xy 148.59 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dcac134-0657-4ede-b86d-e10707049b25")
 	)
 	(wire
 		(pts
@@ -590,7 +622,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 115.57) (xy 148.59 118.11)
+			(xy 148.59 115.57) (xy 148.59 116.84)
 		)
 		(stroke
 			(width 0)
@@ -620,6 +652,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 115.57) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e61b832-e88d-41ae-8a26-8da340a77122")
+	)
+	(wire
+		(pts
 			(xy 148.59 85.09) (xy 148.59 90.17)
 		)
 		(stroke
@@ -627,6 +669,16 @@
 			(type default)
 		)
 		(uuid "dab2f3a4-77c8-4857-883c-994abdf279f8")
+	)
+	(wire
+		(pts
+			(xy 148.59 116.84) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7d11f6-c19a-48a0-8145-3606d145b8a9")
 	)
 	(global_label "+3.3V_sensor"
 		(shape input)
@@ -786,7 +838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:SON65P200X200X80-7N"
 			(at 149.86 114.3 0)
 			(effects
 				(font
@@ -832,6 +884,9 @@
 		)
 		(pin "3"
 			(uuid "730b64d5-8bb7-41e3-abb5-e64c795481af")
+		)
+		(pin "07"
+			(uuid "19f5d87c-de3d-4a97-947c-bdb152193d0f")
 		)
 		(instances
 			(project "Smarter Watch Stuff"

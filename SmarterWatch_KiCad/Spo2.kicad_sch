@@ -1650,7 +1650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Foot:XDCR_MAX30101EFD_"
+		(property "Footprint" ""
 			(at 134.62 99.06 0)
 			(effects
 				(font
