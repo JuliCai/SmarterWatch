@@ -569,7 +569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:LED_IN-PI554FCH"
 			(at 144.78 106.68 0)
 			(effects
 				(font
