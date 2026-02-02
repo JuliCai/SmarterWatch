@@ -1,4 +1,4 @@
-26808260224845136
+26815340455455095
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59374,6 +59374,13 @@ Jumper_NO
 5
 2
 Custom_Foot
+LED_IN-PI554FCH
+
+
+0
+4
+4
+Custom_Foot
 MMC5983MA_MEM
 
 MMC5983MA 
@@ -59479,6 +59486,20 @@ Untitled_6
 0
 0
 Custom_Foot
+Untitled_7
+
+
+0
+0
+0
+Custom_Foot
+Untitled_8
+
+
+0
+0
+0
+Custom_Foot
 XCDR_SGP40-D-R4
 
 
@@ -59492,6 +59513,13 @@ XDCR_MAX30101EFD_
 0
 14
 14
+Custom_Foot
+XTAL_SC32S-7PF20PPM_EPS
+
+SC32S-7PF20PPM 
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
