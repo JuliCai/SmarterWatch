@@ -3140,7 +3140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Smarter watching stuff foot:Button_smd_spst"
+		(property "Footprint" "Custom_Foot:SMD_Button_6mm_SPST"
 			(at 101.6 110.49 0)
 			(effects
 				(font
@@ -3684,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Smarter watching stuff foot:Button_smd_spst"
+		(property "Footprint" "Custom_Foot:SMD_Button_6mm_SPST"
 			(at 82.55 81.28 0)
 			(effects
 				(font
