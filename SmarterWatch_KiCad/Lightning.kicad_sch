@@ -1787,7 +1787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:Antenna_MA5532-AE"
 			(at 119.38 67.31 0)
 			(effects
 				(font
