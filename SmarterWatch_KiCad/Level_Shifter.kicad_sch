@@ -1430,7 +1430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Foot:UDFN8_(1.45x1mm)"
+		(property "Footprint" ""
 			(at 130.81 91.44 0)
 			(effects
 				(font
