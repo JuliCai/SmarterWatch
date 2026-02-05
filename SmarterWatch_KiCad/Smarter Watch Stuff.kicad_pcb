@@ -4407,7 +4407,7 @@
 	(footprint "Custom_Foot:QFN65P400X400X80-17N"
 		(layer "F.Cu")
 		(uuid "29c1f59c-340f-40a5-aac6-5b6f8d35ff9d")
-		(at 163.855 47.945)
+		(at 113.065 47.525)
 		(property "Reference" "U24"
 			(at -0.508 -3.2639 0)
 			(layer "F.SilkS")
@@ -7562,7 +7562,7 @@
 	(footprint "Custom_Foot:Jumper_NO"
 		(layer "F.Cu")
 		(uuid "3ea822be-ed57-41ad-805d-04a4ede7a0cb")
-		(at 158.33 46.44)
+		(at 135.1 50.55)
 		(property "Reference" "U22"
 			(at 0.1 -1.8 0)
 			(unlocked yes)
@@ -7713,7 +7713,7 @@
 			)
 			(polygon
 				(pts
-					(xy 159.03 45.44) (xy 159.03 47.34) (xy 157.03 47.34) (xy 157.03 45.44)
+					(xy 135.8 49.55) (xy 135.8 51.45) (xy 133.8 51.45) (xy 133.8 49.55)
 				)
 			)
 		)
@@ -15246,7 +15246,7 @@
 	(footprint "Custom_Foot:XDCR_MAX30101EFD_"
 		(layer "F.Cu")
 		(uuid "7cf8dc4b-c712-4931-bab0-30750222f886")
-		(at 177.055 61.3)
+		(at 148.3 62.9)
 		(property "Reference" "U10"
 			(at 2.475 -4.199 0)
 			(layer "F.SilkS")
@@ -17894,7 +17894,7 @@
 	(footprint "Custom_Foot:SOIC127P600X175-8N"
 		(layer "F.Cu")
 		(uuid "96ddbde1-3b6c-423d-8e09-2767c5ea2e5e")
-		(at 75.525 51.365)
+		(at 135 40.5)
 		(property "Reference" "U15"
 			(at -0.535 -3.635 0)
 			(layer "F.SilkS")
@@ -18161,9 +18161,9 @@
 	(footprint "Custom_Foot:SMD_Button_6mm_SPST"
 		(layer "F.Cu")
 		(uuid "9da205b2-3ad9-4b16-8cfa-88c889d4fff0")
-		(at 132.54 83.79)
+		(at 122 59.1 90)
 		(property "Reference" "SW2"
-			(at 0 -2 0)
+			(at 0 -2 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "89e5bc4d-7e51-4a23-9ed0-f7a3928c1796")
@@ -18175,7 +18175,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 0 2 0)
+			(at 0 2 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0dab319e-214f-4e24-a958-d881040b5269")
@@ -18187,7 +18187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18200,7 +18200,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18217,14 +18217,24 @@
 		(sheetfile "CPU.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -3 -1.25)
-			(end -3 0.5)
+			(start 3 -1.25)
+			(end 3 1.25)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2e931ff8-0a21-4886-89ce-da3cf95080c4")
+			(uuid "26403ddb-17c4-42cf-83da-2b662802ea79")
+		)
+		(fp_line
+			(start -1.75 -1.25)
+			(end 3 -1.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c2e0a8bb-ed04-4d3e-bef3-3b1eeba48709")
 		)
 		(fp_line
 			(start -3 -1.25)
@@ -18235,6 +18245,36 @@
 			)
 			(layer "F.SilkS")
 			(uuid "279ce944-bb26-4d6c-b90a-389cc91387f4")
+		)
+		(fp_line
+			(start -3 -1.25)
+			(end -3 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2e931ff8-0a21-4886-89ce-da3cf95080c4")
+		)
+		(fp_line
+			(start -2.5 -0.75)
+			(end -2.5 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "468754fe-c11e-4c4e-9dde-808fa19a828b")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end -1.75 1.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e5b934f9-326d-4d0f-b240-39e0565f84c6")
 		)
 		(fp_line
 			(start -3 1.25)
@@ -18256,46 +18296,6 @@
 			(layer "F.SilkS")
 			(uuid "74f973cf-ba1a-4bfb-b61a-87e5128a7bf5")
 		)
-		(fp_line
-			(start -2.5 -0.75)
-			(end -2.5 0.75)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "468754fe-c11e-4c4e-9dde-808fa19a828b")
-		)
-		(fp_line
-			(start -1.75 -1.25)
-			(end 3 -1.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "c2e0a8bb-ed04-4d3e-bef3-3b1eeba48709")
-		)
-		(fp_line
-			(start 3 -1.25)
-			(end 3 1.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "26403ddb-17c4-42cf-83da-2b662802ea79")
-		)
-		(fp_line
-			(start 3 1.25)
-			(end -1.75 1.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "e5b934f9-326d-4d0f-b240-39e0565f84c6")
-		)
 		(fp_rect
 			(start -5.25 -1.5)
 			(end 5.25 1.5)
@@ -18308,7 +18308,7 @@
 			(uuid "3d47361f-77ef-4d6a-a272-e9fe7f15b168")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.5 0)
+			(at 0 3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "51b9cad4-bd5c-4053-84f7-1801ab4cd2d7")
@@ -18320,7 +18320,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -4.1 0)
+			(at -4.1 0 90)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -18330,7 +18330,7 @@
 			(uuid "022e9173-4bfb-4940-bf66-f874829cbc0a")
 		)
 		(pad "2" smd roundrect
-			(at 4.1 0)
+			(at 4.1 0 90)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -18551,7 +18551,7 @@
 	(footprint "Custom_Foot:XDCR_MAX30101EFD_"
 		(layer "F.Cu")
 		(uuid "9e0490e6-f28a-4b65-9284-9ce50065c460")
-		(at 165.915 88.39)
+		(at 143.8 63.1)
 		(property "Reference" "U17"
 			(at 2.475 -4.199 0)
 			(layer "F.SilkS")
@@ -20901,7 +20901,7 @@
 	(footprint "RF_Module:ESP32-C6-MINI-1"
 		(layer "F.Cu")
 		(uuid "b76a7ffc-bd4a-4b93-ad6e-78c3c0a735fa")
-		(at 101.3 67.9 180)
+		(at 101.5 68 180)
 		(descr "2.4 GHz Wi-Fi, Bluetooth, Zigbee and Thread combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_mini-1u_datasheet_en.pdf")
 		(tags "2.4 GHz Wi-Fi Bluetooth Zigbee Thread external antenna espressif  16.6*13.2mm")
 		(property "Reference" "U5"
@@ -21784,7 +21784,7 @@
 			)
 			(polygon
 				(pts
-					(xy 79.7 73.5) (xy 122.9 73.5) (xy 122.9 93.9) (xy 79.7 93.9)
+					(xy 79.9 73.6) (xy 123.1 73.6) (xy 123.1 94) (xy 79.9 94)
 				)
 			)
 		)
