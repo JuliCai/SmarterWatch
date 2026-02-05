@@ -1085,7 +1085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Smarter watching stuff foot:Vibration motor"
+		(property "Footprint" "Custom_Foot:Vibration_Motor"
 			(at 74.93 30.226 0)
 			(effects
 				(font
