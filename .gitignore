@@ -1,4 +1,4 @@
 #don't sync lock and DS store files
 *.lck
-.DS_store
+.DS_Store
 *.zip
