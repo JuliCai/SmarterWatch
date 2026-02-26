@@ -13949,7 +13949,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "71690b89-8a2b-458d-b263-e543af02b417")
-		(at 161.61 65.12)
+		(at 161.5 64.68)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -14948,7 +14948,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 0 -1.17 0)
+			(at -0.11 -1.61 0)
 			(layer "F.SilkS")
 			(uuid "1603a582-da75-4163-b91b-ee2618e2ef87")
 			(effects
@@ -15554,7 +15554,7 @@
 	(footprint "Custom_Foot:Jumper_NO"
 		(layer "F.Cu")
 		(uuid "7e9a3cae-4970-469f-9a2b-b30f30abb04c")
-		(at 158.33 59.3)
+		(at 83.1 53)
 		(property "Reference" "U12"
 			(at 0.1 -1.8 0)
 			(unlocked yes)
@@ -15705,7 +15705,7 @@
 			)
 			(polygon
 				(pts
-					(xy 159.03 58.3) (xy 159.03 60.2) (xy 157.03 60.2) (xy 157.03 58.3)
+					(xy 83.8 52) (xy 83.8 53.9) (xy 81.8 53.9) (xy 81.8 52)
 				)
 			)
 		)
