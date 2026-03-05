@@ -15132,6 +15132,7 @@
 		)
 	)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	(footprint "Custom_Foot:Jumper_NO"
 		(layer "F.Cu")
 		(uuid "7e9a3cae-4970-469f-9a2b-b30f30abb04c")
@@ -15292,6 +15293,8 @@
 		)
 		(embedded_fonts no)
 	)
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
