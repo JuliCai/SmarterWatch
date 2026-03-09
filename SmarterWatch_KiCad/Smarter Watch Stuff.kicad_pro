@@ -262,6 +262,11 @@
         "bottomLayer": 6,
         "enabled": true,
         "topLayer": 4
+      },
+      {
+        "bottomLayer": 6,
+        "enabled": true,
+        "topLayer": 0
       }
     ],
     "layer_presets": [],
