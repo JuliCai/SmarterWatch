@@ -1,4 +1,4 @@
 #don't sync lock and DS store files
 *.lck
 .DS_Store
-*.zip
+/SmarterWatch_KiCad/Smarter Watch Stuff-backups/
