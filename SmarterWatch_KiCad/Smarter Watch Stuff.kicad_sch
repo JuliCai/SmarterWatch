@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "52181fb0-1be8-41da-83b2-7d5a62778ff4")
 	(paper "A4")
 	(lib_symbols)
@@ -18,11 +18,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "01b5dd88-d733-4c4b-897c-9901ed06fbc3")
 		(property "Sheetname" "Temp"
 			(at 44.45 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,6 +34,8 @@
 		)
 		(property "Sheetfile" "TEMP.kicad_sch"
 			(at 44.45 88.2146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,11 +64,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "12ab34e0-335f-4682-992c-207f5bc7dd03")
 		(property "Sheetname" "CO2"
 			(at 134.62 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,6 +80,8 @@
 		)
 		(property "Sheetfile" "CO2.kicad_sch"
 			(at 134.62 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,11 +110,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2f0b09c8-b4cf-4f8b-b6e9-0daae63785e2")
 		(property "Sheetname" "Clock"
 			(at 13.97 159.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,6 +126,8 @@
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
 			(at 13.97 198.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,11 +156,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "32cbc301-99d8-4fa0-b16c-40efe0d038ae")
 		(property "Sheetname" "Humidity"
 			(at 12.7 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,6 +172,8 @@
 		)
 		(property "Sheetfile" "Humidity.kicad_sch"
 			(at 12.7 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,11 +202,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4391aa75-64c4-4f2b-91f2-dcfd546de819")
 		(property "Sheetname" "Vibration"
 			(at 17.78 126.7964 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,6 +218,8 @@
 		)
 		(property "Sheetfile" "vibration.kicad_sch"
 			(at 17.78 157.0486 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,11 +248,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4df96961-4f81-4895-89b9-346021eb0621")
 		(property "Sheetname" "Touch"
 			(at 50.8 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,6 +264,8 @@
 		)
 		(property "Sheetfile" "Touch.kicad_sch"
 			(at 50.8 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,11 +294,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4e6e0c31-a114-41a6-91d2-e39a92f1b389")
 		(property "Sheetname" "MOSFET"
 			(at 13.97 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,6 +310,8 @@
 		)
 		(property "Sheetfile" "MOSFET.kicad_sch"
 			(at 13.97 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -312,11 +340,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "596be1bd-3875-49a3-8dbd-4c169cd37f92")
 		(property "Sheetname" "Skin Temp"
 			(at 90.17 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,6 +356,8 @@
 		)
 		(property "Sheetfile" "Skin.kicad_sch"
 			(at 90.17 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,11 +386,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "64b56c59-94b5-4fcd-a1b7-d29a8b43cdbf")
 		(property "Sheetname" "Barometer"
 			(at 50.8 130.0984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,6 +402,8 @@
 		)
 		(property "Sheetfile" "BARO.kicad_sch"
 			(at 50.8 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,11 +432,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6c8c7d50-1ba8-4a5e-9463-25cd8988433c")
 		(property "Sheetname" "RGB"
 			(at 38.1 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,6 +448,8 @@
 		)
 		(property "Sheetfile" "RGB.kicad_sch"
 			(at 38.1 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -438,11 +478,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "77892699-573d-4088-8620-7e57ff64f2e6")
 		(property "Sheetname" "SCREEN"
 			(at 68.58 13.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,6 +494,8 @@
 		)
 		(property "Sheetfile" "Screen.kicad_sch"
 			(at 68.58 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -480,11 +524,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "803fb00a-057d-4ee2-baeb-1579b9152d17")
 		(property "Sheetname" "IMU"
 			(at 97.79 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,6 +540,8 @@
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
 			(at 97.79 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,11 +570,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a00a754a-aed5-4908-97a0-bc1d443d4203")
 		(property "Sheetname" "CPU"
 			(at 146.05 160.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,6 +586,8 @@
 		)
 		(property "Sheetfile" "CPU.kicad_sch"
 			(at 146.05 198.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,11 +616,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a7d1cf48-cec0-4485-89d4-6b86e8a98aaa")
 		(property "Sheetname" "Level Shifter"
 			(at 137.16 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,6 +632,8 @@
 		)
 		(property "Sheetfile" "Level_Shifter.kicad_sch"
 			(at 137.16 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,11 +662,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a81d0056-8f62-4a8c-9881-76225b75ad2c")
 		(property "Sheetname" "LDO"
 			(at 116.84 160.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,6 +678,8 @@
 		)
 		(property "Sheetfile" "LDO.kicad_sch"
 			(at 116.84 197.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,11 +708,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b9a66531-3de1-40e3-a748-3f34f0ced924")
 		(property "Sheetname" "Magnetometer"
 			(at 88.9 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,6 +724,8 @@
 		)
 		(property "Sheetfile" "magnetometer.kicad_sch"
 			(at 88.9 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,11 +754,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b9fa46c4-d87c-4f12-b237-f801e8270b19")
 		(property "Sheetname" "Lightning"
 			(at 132.08 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,6 +770,8 @@
 		)
 		(property "Sheetfile" "Lightning.kicad_sch"
 			(at 132.08 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,11 +800,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "cfac10be-be17-4cdb-a849-9d1c07b85e1a")
 		(property "Sheetname" "USBC"
 			(at 95.25 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -746,6 +816,8 @@
 		)
 		(property "Sheetfile" "USBC.kicad_sch"
 			(at 95.25 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,11 +846,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d294410d-228e-40f6-af22-786adbb6924d")
 		(property "Sheetname" "Memory"
 			(at 17.78 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -788,6 +862,8 @@
 		)
 		(property "Sheetfile" "Memory.kicad_sch"
 			(at 17.78 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,11 +892,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d387adec-aae0-473e-aca8-cc8cb50531b2")
 		(property "Sheetname" "Charger"
 			(at 85.09 160.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,6 +908,8 @@
 		)
 		(property "Sheetfile" "Charger.kicad_sch"
 			(at 85.09 197.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,11 +938,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ede32b43-0075-4e9b-9527-55f10148fcb6")
 		(property "Sheetname" "Heart Rate and Oxygen"
 			(at 71.12 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,6 +954,8 @@
 		)
 		(property "Sheetfile" "Spo2.kicad_sch"
 			(at 71.12 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,11 +984,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ff37529c-7f13-4764-a7bc-f886fcded995")
 		(property "Sheetname" "Light Sensor"
 			(at 52.07 160.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,6 +1000,8 @@
 		)
 		(property "Sheetfile" "Light Sensor.kicad_sch"
 			(at 52.07 197.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
