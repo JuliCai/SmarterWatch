@@ -420,6 +420,52 @@
 		)
 	)
 	(sheet
+		(at 187.96 20.32)
+		(size 36.195 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6620daa8-1388-47b4-9d1c-3975bf9d4b28")
+		(property "Sheetname" "New Heart"
+			(at 187.96 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NewHeart.kicad_sch"
+			(at 187.96 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 12.7)
 		(size 25.4 31.75)
 		(exclude_from_sim no)

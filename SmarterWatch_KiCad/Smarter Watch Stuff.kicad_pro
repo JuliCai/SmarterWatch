@@ -772,7 +772,7 @@
         "uuid": "52181fb0-1be8-41da-83b2-7d5a62778ff4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U27",
     "variants": []
   },
   "sheets": [
@@ -867,6 +867,10 @@
     [
       "a7d1cf48-cec0-4485-89d4-6b86e8a98aaa",
       "Level Shifter"
+    ],
+    [
+      "6620daa8-1388-47b4-9d1c-3975bf9d4b28",
+      "New Heart"
     ]
   ],
   "text_variables": {},
