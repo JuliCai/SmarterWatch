@@ -98,52 +98,6 @@
 		)
 	)
 	(sheet
-		(at 13.97 160.02)
-		(size 36.83 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "2f0b09c8-b4cf-4f8b-b6e9-0daae63785e2")
-		(property "Sheetname" "Clock"
-			(at 13.97 159.3084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 13.97 198.7046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 12.7 12.7)
 		(size 24.13 30.48)
 		(exclude_from_sim no)

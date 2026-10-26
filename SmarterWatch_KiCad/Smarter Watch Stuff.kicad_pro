@@ -753,6 +753,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -772,17 +780,13 @@
         "uuid": "52181fb0-1be8-41da-83b2-7d5a62778ff4"
       }
     ],
-    "used_designators": "D3-5,C29,R10-11,R33,#PWR109-115,U27",
+    "used_designators": "#PWR109,#PWR111,#PWR116-127,U1,U28-30,R11,J7-9,SW3,C1,FB3-6",
     "variants": []
   },
   "sheets": [
     [
       "52181fb0-1be8-41da-83b2-7d5a62778ff4",
       "Smarter Watch Stuff"
-    ],
-    [
-      "2f0b09c8-b4cf-4f8b-b6e9-0daae63785e2",
-      "Clock"
     ],
     [
       "ff37529c-7f13-4764-a7bc-f886fcded995",
