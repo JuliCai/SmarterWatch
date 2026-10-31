@@ -560,460 +560,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dk_Motion-Sensors-IMUs-Inertial-Measurement-Units:BMI160"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BMI160"
-				(at 3.81 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "digikey-footprints:BMI160"
-				(at 5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf"
-				(at 5.08 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "IMU ACCEL/GYRO I2C/SPI 14LGA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digi-Key_PN" "828-1057-1-ND"
-				(at 5.08 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "MPN" "BMI160"
-				(at 5.08 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Category" "Sensors, Transducers"
-				(at 5.08 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Family" "Motion Sensors - IMUs (Inertial Measurement Units)"
-				(at 5.08 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "DK_Datasheet_Link" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf"
-				(at 5.08 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/bosch-sensortec/BMI160/828-1057-1-ND/6136308"
-				(at 5.08 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Description_1" "IMU ACCEL/GYRO I2C/SPI 14LGA"
-				(at 5.08 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "Bosch Sensortec"
-				(at 5.08 27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "828-1057-1-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BMI160_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 10.16 -8.89)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "BMI160_1_1"
-				(pin output line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "ASD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "ASC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "INT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "INT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "OCSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "OSDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "SC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "SD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -1276,22 +822,10 @@
 		(uuid "1e9ae67d-1012-4a62-9522-261abc4c8ad4")
 	)
 	(junction
-		(at 143.51 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a506424-c4b9-49c1-8216-d45e6c62380e")
-	)
-	(junction
 		(at 52.07 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60c181d5-c1e5-4d65-8575-8f9642f55ce0")
-	)
-	(junction
-		(at 144.78 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6834bcda-5e53-46d0-a94f-6158780f8cd9")
 	)
 	(junction
 		(at 38.1 41.91)
@@ -1300,48 +834,22 @@
 		(uuid "a585a8fe-d6f5-48ca-8a51-48b03e86f5ba")
 	)
 	(junction
-		(at 143.51 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdd2b0ea-b614-42f4-91fd-34d3657d5825")
-	)
-	(junction
 		(at 38.1 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cea3e9af-cd3c-4d1a-bd0e-592317f54396")
 	)
 	(no_connect
-		(at 132.08 101.6)
-		(uuid "0e4f7afa-52af-46e7-803a-d58b6318b5ab")
+		(at 46.99 45.72)
+		(uuid "3e8a912c-ad69-497a-9f21-e882db2179ac")
 	)
 	(no_connect
-		(at 132.08 96.52)
-		(uuid "10feceac-7fa4-4e08-86c2-8d35d3e97cfc")
+		(at 46.99 38.1)
+		(uuid "7d5022f0-2cc1-401c-b489-b61c346c04ca")
 	)
 	(no_connect
-		(at 154.94 96.52)
-		(uuid "1cf1424f-a3de-46f3-8d21-455068763cbd")
-	)
-	(no_connect
-		(at 132.08 99.06)
-		(uuid "3ca040e1-9263-4d51-8def-d57a6571fe14")
-	)
-	(no_connect
-		(at 154.94 101.6)
-		(uuid "4c762a76-8176-42f4-857a-84f4548ee12e")
-	)
-	(no_connect
-		(at 154.94 99.06)
-		(uuid "60779fff-1d9f-4e61-9994-16becc8ec317")
-	)
-	(no_connect
-		(at 132.08 106.68)
-		(uuid "823d3210-d466-468a-b051-f6ebfbb8b09e")
-	)
-	(no_connect
-		(at 132.08 104.14)
-		(uuid "b927c98c-2fe4-424b-8267-ba1a3177365e")
+		(at 87.63 50.8)
+		(uuid "d2950001-925b-4aa7-bdb6-27532e51a14d")
 	)
 	(wire
 		(pts
@@ -1365,16 +873,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 116.84) (xy 146.05 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "208ae7dc-e243-452f-a1ce-9053a45ca660")
-	)
-	(wire
-		(pts
 			(xy 87.63 53.34) (xy 87.63 63.5)
 		)
 		(stroke
@@ -1385,16 +883,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 116.84) (xy 154.94 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c5557e4-0d21-4acc-8da8-0366b12c6d6c")
-	)
-	(wire
-		(pts
 			(xy 92.71 29.21) (xy 38.1 29.21)
 		)
 		(stroke
@@ -1402,26 +890,6 @@
 			(type default)
 		)
 		(uuid "30fb8acf-49ad-42d5-b584-79541e199201")
-	)
-	(wire
-		(pts
-			(xy 143.51 116.84) (xy 144.78 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3efea957-49fc-4312-af46-f2533f91cd6b")
-	)
-	(wire
-		(pts
-			(xy 142.24 86.36) (xy 143.51 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418d5b26-af16-41e4-ae1a-107a3d1ae726")
 	)
 	(wire
 		(pts
@@ -1445,26 +913,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 143.51 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d6efa1b-659a-45b9-9618-e344cd8b0e4c")
-	)
-	(wire
-		(pts
-			(xy 144.78 113.03) (xy 144.78 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fac9484-d876-4a64-9002-4ef0841be8b0")
-	)
-	(wire
-		(pts
 			(xy 52.07 63.5) (xy 55.88 63.5)
 		)
 		(stroke
@@ -1472,16 +920,6 @@
 			(type default)
 		)
 		(uuid "9510ce58-49fa-41d0-bb8e-f9c9b2425502")
-	)
-	(wire
-		(pts
-			(xy 142.24 91.44) (xy 142.24 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a598e290-1798-4fd9-8c32-2ac4ee89db7b")
 	)
 	(wire
 		(pts
@@ -1525,16 +963,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 114.3) (xy 157.48 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee1e339-ca59-4819-8a79-eb5eae8ca777")
-	)
-	(wire
-		(pts
 			(xy 46.99 48.26) (xy 43.18 48.26)
 		)
 		(stroke
@@ -1555,16 +983,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 113.03) (xy 142.24 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f464d9-1476-4252-9f49-19f5c45211a1")
-	)
-	(wire
-		(pts
 			(xy 85.09 63.5) (xy 63.5 63.5)
 		)
 		(stroke
@@ -1572,16 +990,6 @@
 			(type default)
 		)
 		(uuid "dbec9c0e-8b11-4930-80e3-4cd14b5c3620")
-	)
-	(wire
-		(pts
-			(xy 143.51 86.36) (xy 144.78 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9a4a382-4eb1-44e0-b64a-addf7e1523bb")
 	)
 	(wire
 		(pts
@@ -1595,26 +1003,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 116.84) (xy 154.94 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed78d4fa-bda5-44ca-8a47-d95ef944fe80")
-	)
-	(wire
-		(pts
-			(xy 144.78 86.36) (xy 144.78 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee5f9d52-9e64-4208-af15-4d09838fac49")
-	)
-	(wire
-		(pts
 			(xy 46.99 53.34) (xy 46.99 63.5)
 		)
 		(stroke
@@ -1622,30 +1010,6 @@
 			(type default)
 		)
 		(uuid "fdbfd3d1-88c8-4fe1-92d5-a32cfd18b1d2")
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 154.94 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd896964-77be-49ac-b3a2-3b751d222251")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4328 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "SDA"
 		(shape input)
@@ -1660,30 +1024,6 @@
 		(uuid "ed502cd7-48ef-4456-9de4-6ceeff9062c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 94.1833 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 154.94 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f90d1cfb-e4f8-44e1-bbac-567151775f98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4933 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1731,7 +1071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "389d2b57-f0cb-4ac0-8edb-88c91a5d7143")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR048"
 			(at 85.09 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1791,85 +1131,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46865ac5-56b0-4680-86ab-612ef42ff03f")
-		(property "Reference" "#PWR051"
-			(at 143.51 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a95df898-90f7-46b9-be4c-6bbbc70efd0c")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "#PWR051")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63ae5c7d-b71f-4cbb-8a8d-1a8ea11a46f3")
-		(property "Reference" "C30"
+		(property "Reference" "C11"
 			(at 59.69 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1949,7 +1211,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "C30")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1967,7 +1229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97822401-c490-4135-a243-f3d884987d00")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR045"
 			(at 30.48 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2028,7 +1290,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "#PWR02")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2046,7 +1308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f6fab3b-565e-41d5-85f4-abb0a75b2eaa")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR046"
 			(at 41.91 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2107,86 +1369,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 157.48 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0ce2c51-567b-418a-8f59-f9cc7224c1c3")
-		(property "Reference" "#PWR052"
-			(at 153.67 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 161.29 114.2999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe2fc12a-4bd0-4357-8b84-c46c5dd38908")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "#PWR052")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2204,7 +1387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b477bc5d-07c3-41dc-9350-dbcd78c4b698")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR047"
 			(at 52.07 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2264,393 +1447,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 149.86 116.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dee3a3bd-46a2-4fcf-a039-942c86017c9d")
-		(property "Reference" "C14"
-			(at 149.86 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ".1 uf"
-			(at 149.86 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 153.67 115.8748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 149.86 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ce2b7a6d-fab0-445c-a397-bf523f0fed1b")
-		)
-		(pin "1"
-			(uuid "259ea77a-85b3-4c3f-bd24-616f075ebd70")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 143.51 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0a17352-581b-43d1-ae4f-a401b7112d1f")
-		(property "Reference" "#PWR050"
-			(at 143.51 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 143.51 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 143.51 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d3c585a-3f82-4c09-8f0e-4e74ea9f3fd7")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Motion-Sensors-IMUs-Inertial-Measurement-Units:BMI160")
-		(at 142.24 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3827344-2c8e-42ba-b1bf-dabededa394d")
-		(property "Reference" "U11"
-			(at 146.9233 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BMI160"
-			(at 146.9233 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_Foot:BMI323_BOS"
-			(at 147.32 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf"
-			(at 147.32 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "IMU ACCEL/GYRO I2C/SPI 14LGA"
-			(at 142.24 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key_PN" "828-1057-1-ND"
-			(at 147.32 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "BMI160"
-			(at 147.32 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Category" "Sensors, Transducers"
-			(at 147.32 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Family" "Motion Sensors - IMUs (Inertial Measurement Units)"
-			(at 147.32 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf"
-			(at 147.32 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/bosch-sensortec/BMI160/828-1057-1-ND/6136308"
-			(at 147.32 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Description_1" "IMU ACCEL/GYRO I2C/SPI 14LGA"
-			(at 147.32 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Bosch Sensortec"
-			(at 147.32 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Status" "Active"
-			(at 147.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(pin "12"
-			(uuid "4b205c34-d1e4-449f-8408-d9bf834660d2")
-		)
-		(pin "8"
-			(uuid "229514a8-10c5-40c7-b6b9-45317a46c53a")
-		)
-		(pin "14"
-			(uuid "bdaa2347-057a-4084-ade8-af423bdd8932")
-		)
-		(pin "4"
-			(uuid "9726a246-4c8b-45a5-b707-dcf0a824e9a7")
-		)
-		(pin "11"
-			(uuid "58e7c53a-bcb2-4ef2-9855-3936dbcb5b97")
-		)
-		(pin "10"
-			(uuid "72141807-0479-4321-ae25-b7bb4ad77023")
-		)
-		(pin "7"
-			(uuid "b3d8f57c-ce7d-401f-9e64-e48aed638124")
-		)
-		(pin "9"
-			(uuid "efb80782-4ddb-448b-8f85-7172f7dda3dd")
-		)
-		(pin "5"
-			(uuid "e1587e6d-8647-41df-9241-cbf80cec8ab5")
-		)
-		(pin "6"
-			(uuid "eefebe27-4435-4f8a-85f0-3ed506f586ef")
-		)
-		(pin "1"
-			(uuid "cb685548-eb6f-4583-942a-52f485d6f548")
-		)
-		(pin "2"
-			(uuid "246d2559-f816-468a-8279-a83ae5b814fb")
-		)
-		(pin "3"
-			(uuid "bca9d794-56f1-44c3-9dea-7ce8a7fd7e8e")
-		)
-		(pin "13"
-			(uuid "f2284a34-da3b-44d2-abbf-70848b83f84d")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "U11")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2668,7 +1465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f04b6c2c-1728-4b09-9b1b-3bd1c0dd9f9b")
-		(property "Reference" "C31"
+		(property "Reference" "C10"
 			(at 41.91 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2732,7 +1529,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "C31")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2750,7 +1547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5f599fd-11ff-4e66-be8b-a6eee4aef25e")
-		(property "Reference" "U30"
+		(property "Reference" "U9"
 			(at 67.31 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2850,7 +1647,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/803fb00a-057d-4ee2-baeb-1579b9152d17"
-					(reference "U30")
+					(reference "U9")
 					(unit 1)
 				)
 			)

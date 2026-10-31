@@ -893,7 +893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "544208d9-46cb-49c8-99e6-ba1ebcf8d53f")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -953,7 +953,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -970,7 +970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b2f7379-12ed-4977-ac0a-5415b861e082")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 149.86 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1041,7 +1041,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1059,7 +1059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf21b07c-e655-49df-aeca-2fe0079444f1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 114.3 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1119,7 +1119,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1137,7 +1137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4fc59fa-c029-47ba-9774-adc35bc8d109")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 177.8 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1197,7 +1197,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1215,7 +1215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e85ef7a7-d88b-44c4-ae05-ff86d4af7760")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 181.61 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1279,7 +1279,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)

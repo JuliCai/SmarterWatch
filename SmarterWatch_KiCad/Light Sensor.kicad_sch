@@ -923,16 +923,16 @@
 		)
 	)
 	(junction
-		(at 157.48 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f196e41-8836-4158-8192-bfd46d7bcb9c")
-	)
-	(junction
 		(at 157.48 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c574742a-f8df-43fe-9faf-1416915dae85")
+	)
+	(junction
+		(at 157.48 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7909b10-d9e8-4c32-a12e-68688dbb91db")
 	)
 	(no_connect
 		(at 139.7 93.98)
@@ -947,6 +947,16 @@
 			(type default)
 		)
 		(uuid "240e0b86-4d08-48be-b261-e2de10170bc3")
+	)
+	(wire
+		(pts
+			(xy 157.48 74.93) (xy 157.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c22e5c-1363-4b22-b16e-b5c8f802fd01")
 	)
 	(wire
 		(pts
@@ -987,16 +997,6 @@
 			(type default)
 		)
 		(uuid "97823746-4157-40c3-a0ca-1fe4e4cb6ae1")
-	)
-	(wire
-		(pts
-			(xy 157.48 77.47) (xy 161.29 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a203ce9e-da32-4590-87e9-a3688546f805")
 	)
 	(wire
 		(pts
@@ -1068,7 +1068,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 161.29 77.47 0)
+		(at 157.48 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1078,8 +1078,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40c02c43-f36d-48b8-8ca0-e3b5ae12d0ac")
-		(property "Reference" "#PWR031"
-			(at 161.29 81.28 0)
+		(property "Reference" "#PWR01"
+			(at 157.48 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1090,7 +1090,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 161.29 72.39 0)
+			(at 157.48 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1100,7 +1100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 77.47 0)
+			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1111,7 +1111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 77.47 0)
+			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1122,7 +1122,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 77.47 0)
+			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1138,7 +1138,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ff37529c-7f13-4764-a7bc-f886fcded995"
-					(reference "#PWR031")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1156,7 +1156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78387a35-7275-47cf-964d-dd9b3c349733")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 161.29 90.5509 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1220,7 +1220,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ff37529c-7f13-4764-a7bc-f886fcded995"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1238,7 +1238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7afa99d7-2082-46e1-b8e8-7d97e45cb0dc")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 120.65 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1314,7 +1314,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ff37529c-7f13-4764-a7bc-f886fcded995"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1332,7 +1332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6b7d47-1130-4a66-834e-92fcc3936c3c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 175.26 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1393,7 +1393,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ff37529c-7f13-4764-a7bc-f886fcded995"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

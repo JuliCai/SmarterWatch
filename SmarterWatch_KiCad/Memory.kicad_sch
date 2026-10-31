@@ -5,168 +5,6 @@
 	(uuid "8a646742-a905-4c20-9903-b4593d16af08")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Custom:OpenJumper"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OpenJumper_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -1.016 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "OpenJumper_1_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.778) (xy -1.016 -3.302) (xy 0.762 -3.302) (xy 0.762 -3.048) (xy -0.254 -3.048) (xy -0.254 -2.032)
-						(xy 0.762 -2.032) (xy 0.762 -1.778) (xy -1.016 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.254 -1.778)
-					(end 0.762 -2.032)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -2.54) (xy 1.778 -1.778) (xy 1.016 -1.778) (xy 1.016 -2.286) (xy 0 -2.286) (xy 0 -2.794)
-						(xy 1.016 -2.794) (xy 1.016 -3.302) (xy 1.778 -3.302) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -307,17 +145,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_NVRAM:FM24C64B"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Memory_Flash:AT25SF081-SSHD-X"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -5.08 8.89 0)
+				(at -6.35 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -326,8 +161,8 @@
 					)
 				)
 			)
-			(property "Value" "FM24C64B"
-				(at 6.35 -8.89 0)
+			(property "Value" "AT25SF081-SSHD-X"
+				(at 11.43 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -337,7 +172,7 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 11.43 0)
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -347,18 +182,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.cypress.com/file/41651/download"
-				(at 0 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "64Kb serial FRAM nonvolatile Memory, SOIC-8"
+			(property "Datasheet" "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -369,7 +193,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "FRAM I2C Serial 5V FRAM NVRAM"
+			(property "Description" "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -380,7 +204,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_keywords" "SPI DSPI QSPI 8Mbit 2.5V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -391,10 +215,21 @@
 					)
 				)
 			)
-			(symbol "FM24C64B_0_1"
+			(property "ki_fp_filters" "SOIC?8*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AT25SF081-SSHD-X_0_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -404,11 +239,11 @@
 					)
 				)
 			)
-			(symbol "FM24C64B_1_1"
+			(symbol "AT25SF081-SSHD-X_1_1"
 				(pin input line
-					(at -10.16 2.54 0)
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "A0"
+					(name "~{CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -423,10 +258,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "SO/IO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -441,10 +276,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "A2"
+					(name "~{WP}/IO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -460,9 +295,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at 0 -12.7 90)
 					(length 2.54)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -478,9 +313,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 2.54 180)
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "SDA"
+					(name "SI/IO0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -496,9 +331,9 @@
 					)
 				)
 				(pin input line
-					(at 10.16 0 180)
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "SCL"
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -513,10 +348,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 -2.54 180)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "WP"
+					(name "~{HOLD}/IO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -532,9 +367,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 7.62 270)
+					(at 0 12.7 270)
 					(length 2.54)
-					(name "VDD"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -807,368 +642,121 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 123.19 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "033e1f52-ac7a-4d87-8116-1b8b5edf21e5")
-	)
-	(junction
-		(at 109.22 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ff89dad-8ebe-4ac6-ae64-5358cda8c28f")
-	)
-	(junction
-		(at 119.38 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5445a7ff-5192-4f80-8b77-f91fd0ce8916")
-	)
-	(junction
-		(at 123.19 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8e9150e-a79a-43b5-a241-59d45699a879")
-	)
-	(junction
-		(at 127 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dad61577-9054-49b1-af70-bda9a86a2ac2")
-	)
-	(wire
-		(pts
-			(xy 123.19 78.74) (xy 123.19 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05b04f81-47e3-4749-85f0-adc73c9252d1")
-	)
-	(wire
-		(pts
-			(xy 123.19 66.04) (xy 123.19 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f74033-8878-4b9d-b249-95f5bb69f9f8")
-	)
-	(wire
-		(pts
-			(xy 130.81 66.04) (xy 130.81 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21f207d7-3cc7-4503-9431-35a4959ba31c")
-	)
-	(wire
-		(pts
-			(xy 138.43 83.82) (xy 138.43 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34a06403-d113-4cf5-8020-1938fb153d3b")
-	)
-	(wire
-		(pts
-			(xy 115.57 66.04) (xy 123.19 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430675e6-2d02-455e-a28c-8a11191d3aaf")
-	)
-	(wire
-		(pts
-			(xy 127 83.82) (xy 127 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d53fb10-1f21-40c8-9c14-ebad857cdc73")
-	)
-	(wire
-		(pts
-			(xy 119.38 83.82) (xy 119.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5899f2b1-ed14-4e28-b046-34c5f64ad191")
-	)
-	(wire
-		(pts
-			(xy 123.19 66.04) (xy 130.81 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62342793-b3dd-4046-a1a7-0fd4999d6652")
-	)
-	(wire
-		(pts
-			(xy 115.57 78.74) (xy 115.57 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6428de6b-8f03-46ae-b4e0-8f2dd9ee94ee")
-	)
-	(wire
-		(pts
-			(xy 123.19 91.44) (xy 128.27 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae289d8-8fc9-448e-8bb3-03eb779ef1a2")
-	)
-	(wire
-		(pts
-			(xy 109.22 88.9) (xy 109.22 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c5253d-86fb-47c4-8226-1805be60a6ae")
-	)
-	(wire
-		(pts
-			(xy 123.19 62.23) (xy 123.19 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79799bc2-3173-4747-9ea1-823735b30932")
-	)
-	(wire
-		(pts
-			(xy 118.11 93.98) (xy 127 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81644b8d-b261-467f-ae7c-8bbe02a07c2f")
-	)
-	(wire
-		(pts
-			(xy 118.11 91.44) (xy 123.19 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81faedd5-a0ee-4df8-9c93-f09b454bdf45")
-	)
-	(wire
-		(pts
-			(xy 115.57 68.58) (xy 115.57 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8214b288-996d-4056-877c-3bc3be0a2b95")
-	)
-	(wire
-		(pts
-			(xy 119.38 83.82) (xy 115.57 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "879f3670-f211-4e21-aa58-db88ebd4f506")
-	)
-	(wire
-		(pts
-			(xy 109.22 93.98) (xy 110.49 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "900ddcf1-e76d-41e8-8237-92a646a8c69e")
-	)
-	(wire
-		(pts
-			(xy 130.81 78.74) (xy 130.81 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97403c34-678b-4d2a-90c6-7b94b33f3380")
-	)
-	(wire
-		(pts
-			(xy 109.22 91.44) (xy 110.49 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98171e25-f66e-4f4c-a7e4-07430315629a")
-	)
-	(wire
-		(pts
-			(xy 109.22 91.44) (xy 109.22 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7e6b76b-a87b-4713-9f36-399b784859ed")
-	)
-	(wire
-		(pts
-			(xy 119.38 88.9) (xy 128.27 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e48249-4e25-49a7-b5dd-a7f560ee80be")
-	)
-	(wire
-		(pts
-			(xy 118.11 88.9) (xy 119.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa47f1d-be58-4e71-8312-58d5496a86f2")
-	)
-	(wire
-		(pts
-			(xy 127 93.98) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb28b175-2593-4658-a87b-419cb282d337")
-	)
-	(wire
-		(pts
-			(xy 109.22 88.9) (xy 110.49 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5a84d5-a52d-4a3b-b760-812809998af9")
-	)
-	(wire
-		(pts
-			(xy 127 83.82) (xy 130.81 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee3a7c31-1325-4716-8f1e-9aae38860145")
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 148.59 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55da6844-7ac6-411e-af7d-7aaaaf9dadb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.0828 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 148.59 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9f824cb-32e7-434b-a4d1-30f962ac727f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.1433 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom:OpenJumper")
-		(at 118.11 73.66 270)
-		(unit 1)
-		(body_style 1)
+	(text "128Mbit (16MB) flash memory"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(at 133.35 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8bc5ce1e-d073-437c-8ae4-25c0ab6a7bb4")
+	)
+	(junction
+		(at 110.49 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f170888-4de1-44df-bbf0-ee1d807b0a54")
+	)
+	(junction
+		(at 110.49 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d895b016-a898-4e86-b4fb-a3109a789904")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.01) (xy 110.49 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050cdce7-862d-4304-8652-f8b231f21a20")
+	)
+	(wire
+		(pts
+			(xy 102.87 78.74) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34378c95-a970-4e0b-935b-5ce6c5c6835a")
+	)
+	(wire
+		(pts
+			(xy 110.49 82.55) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b787341-5bb9-46e0-927e-4c4ecb9b15f8")
+	)
+	(wire
+		(pts
+			(xy 102.87 69.85) (xy 110.49 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40999f4f-f543-4afc-a6a7-bec7cd213d50")
+	)
+	(wire
+		(pts
+			(xy 123.19 80.01) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d87e07-211b-4014-b2f9-f0b16daf58ed")
+	)
+	(wire
+		(pts
+			(xy 110.49 64.77) (xy 110.49 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822d3f0e-3ed5-4899-bf0d-257fd297c807")
+	)
+	(wire
+		(pts
+			(xy 110.49 69.85) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf3b83b-eae6-4d7b-9ee1-aad5bede309b")
+	)
+	(wire
+		(pts
+			(xy 102.87 71.12) (xy 102.87 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7ead5c-39bf-44c7-bf4d-d37085c6d430")
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 123.19 77.47 180)
 		(fields_autoplaced yes)
-		(uuid "0b316e95-1030-48c4-af68-af05d6157ef3")
-		(property "Reference" "U12"
-			(at 120.65 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" ""
-			(at 118.11 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Foot:Jumper_NO"
-			(at 118.11 73.66 0)
+		(uuid "39305481-0128-4363-8329-7cc824df38a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.6086 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1176,10 +764,23 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Datasheet" ""
-			(at 118.11 73.66 0)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 123.19 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dbc3f2a-139a-4725-9b99-a8d77b5276c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.6086 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1187,10 +788,23 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Description" ""
-			(at 118.11 73.66 0)
+	)
+	(global_label "MEM_CS"
+		(shape input)
+		(at 102.87 80.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64dd8cf9-71d8-4d9a-9fff-b9577370c13b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 90.4941 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1198,26 +812,61 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(pin "1"
-			(uuid "37e3ad41-5467-4081-8f28-ce495a446381")
+	)
+	(global_label "MEM_CS"
+		(shape input)
+		(at 123.19 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
-		(pin "2"
-			(uuid "8ad15e35-80e2-4034-9794-bcf1761a6850")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "U12")
-					(unit 1)
+		(uuid "8ed95b2b-9e53-48a3-bdd7-c4c5565a24bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.7059 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 123.19 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9dd32f7-810b-428d-8735-1aaea1b2d8c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.4272 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 123.19 62.23 0)
+		(at 133.35 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1226,9 +875,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "55449e0c-0371-4cc3-a95e-04cffa8275f9")
-		(property "Reference" "#PWR065"
-			(at 123.19 66.04 0)
+		(uuid "14505e45-7e2e-4101-902c-72ec460be346")
+		(property "Reference" "#PWR071"
+			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1239,7 +888,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 123.19 57.15 0)
+			(at 133.35 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1249,7 +898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 62.23 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1260,7 +909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 62.23 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1271,7 +920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 62.23 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1282,250 +931,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4e9dc7e-c291-41f4-af27-12d54cfea16e")
+			(uuid "ba5376fe-6f9a-4fe4-939d-90d717228912")
 		)
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c85c7ce-a5ef-4aa3-9104-eea7a3c499a8")
-		(property "Reference" "#PWR067"
-			(at 138.43 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d6d5f713-4c39-4fc9-8b8c-3d7fa7f6e9c6")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 91.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66226d5e-0945-4d1a-81bf-42d839e49e47")
-		(property "Reference" "R19"
-			(at 114.3 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 114.3 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 114.3 93.218 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf34e58e-5cd7-4e40-b0e7-922914d0ea2f")
-		)
-		(pin "2"
-			(uuid "8c25fa34-7f74-4075-b053-e4f4a15ee110")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69c5cfca-205f-4cbb-bfa4-1aebac54645f")
-		(property "Reference" "R18"
-			(at 114.3 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 114.3 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 114.3 90.678 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2f35291-b829-45f0-b74a-ef6212e1a606")
-		)
-		(pin "2"
-			(uuid "a68bca61-2995-4a18-8e95-257f4a151dd4")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "R18")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1533,7 +944,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 138.43 81.28 0)
+		(at 110.49 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1542,9 +953,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a1910a3-be5e-448f-90c8-d22aee012aa4")
-		(property "Reference" "#PWR066"
-			(at 138.43 85.09 0)
+		(uuid "65f1dd68-8ebc-4f77-adea-726d1f588820")
+		(property "Reference" "#PWR070"
+			(at 110.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1555,7 +966,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 138.43 76.2 0)
+			(at 110.49 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1565,7 +976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 81.28 0)
+			(at 110.49 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,7 +987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 81.28 0)
+			(at 110.49 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1587,7 +998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 138.43 81.28 0)
+			(at 110.49 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,20 +1009,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d39c6fc-9b46-4633-bbe3-2a889cb05d3f")
+			(uuid "753537a7-d82c-40fa-9438-72550b9ef9ca")
 		)
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "#PWR066")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 93.98 90)
+		(lib_id "Device:R")
+		(at 102.87 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1620,247 +1031,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "889e03f8-c3fd-4550-bb39-92ca4da16c30")
-		(property "Reference" "#PWR068"
-			(at 154.94 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d63c1b0f-f4f6-4a1a-b16d-8be4b76ca82e")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.22 91.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5fe4ce9-ca34-4039-96c1-0d69ec67f83a")
-		(property "Reference" "#PWR064"
-			(at 102.87 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 91.4399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9cdd3533-b149-4165-b6af-fa991981f5fd")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom:OpenJumper")
-		(at 133.35 73.66 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2a48345-e826-4825-960d-516d9f380e44")
-		(property "Reference" "U14"
-			(at 135.89 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 133.35 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Foot:Jumper_NO"
-			(at 133.35 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "849006f4-64b6-4ad9-a8c7-291c6ea7a843")
-		)
-		(pin "2"
-			(uuid "464236d9-40e1-45e4-b376-db7d8c95c7d9")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_NVRAM:FM24C64B")
-		(at 138.43 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5a22342-5b6a-43ff-8c52-3147618e5204")
-		(property "Reference" "U15"
-			(at 140.5733 81.28 0)
+		(uuid "707da362-ab2c-4787-b9bd-2ebef8ea7659")
+		(property "Reference" "R14"
+			(at 105.41 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1870,8 +1043,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M24C64-WMN6TP"
-			(at 140.5733 83.82 0)
+		(property "Value" "4.7k"
+			(at 105.41 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1881,8 +1054,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Foot:SOIC127P600X175-8N"
-			(at 138.43 80.01 0)
+		(property "Footprint" ""
+			(at 101.092 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1892,8 +1065,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5c/df/52/a5/15/f2/48/bd/CD00259166.pdf/files/CD00259166.pdf/jcr:content/translations/en.CD00259166.pdf"
-			(at 138.43 77.47 0)
+		(property "Datasheet" ""
+			(at 102.87 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,8 +1076,8 @@
 				)
 			)
 		)
-		(property "Description" "64Kb serial EEPROM nonvolatile Memory, SOIC-8"
-			(at 138.43 91.44 0)
+		(property "Description" "Resistor"
+			(at 102.87 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1915,120 +1088,123 @@
 			)
 		)
 		(pin "2"
-			(uuid "78554380-c863-43fd-92fa-5d061a5d2e08")
-		)
-		(pin "7"
-			(uuid "ea4a863a-37fc-4f84-b4e0-0d3c699d0138")
+			(uuid "b9af8c67-51c2-4afd-a462-84675d1a8100")
 		)
 		(pin "1"
-			(uuid "4ca8996f-42d5-41a5-b52a-2f1308ab3e57")
+			(uuid "b880b0c9-8cc9-46f4-bef9-8f22cf7e9e3a")
 		)
-		(pin "6"
-			(uuid "1f6ab11b-032f-4d52-8c45-18839222843a")
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "8585bff3-7ea4-43df-b4a2-c60ca0b0832a")
+	)
+	(symbol
+		(lib_id "Memory_Flash:AT25SF081-SSHD-X")
+		(at 133.35 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ba8699b-de47-415b-8241-29bf4befe227")
+		(property "Reference" "U11"
+			(at 142.24 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AT25QF128A-SHB-T"
+			(at 142.24 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 133.35 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf"
+			(at 133.35 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"
+			(at 133.35 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "4"
-			(uuid "05ee1a7c-210c-464c-8f48-8a9eec4710f6")
+			(uuid "306f3bbb-2a1a-455f-ae26-d3a64cf4078c")
 		)
-		(pin "5"
-			(uuid "b30ac1ff-1782-4d27-abcf-a841341d4b60")
+		(pin "6"
+			(uuid "e7f096a8-3570-4903-b796-ffe387f8a2a3")
 		)
 		(pin "8"
-			(uuid "38b8633f-3e5e-482d-b64c-81c5430f5404")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 93.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db064a59-d889-45a0-87aa-6211529c5368")
-		(property "Reference" "R20"
-			(at 114.3 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 114.3 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 114.3 95.758 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "f86ee0ae-d38c-4c77-8bca-797d3a085e8c")
 		)
 		(pin "1"
-			(uuid "a02526f9-6eae-4489-92ee-3dd3c00cb5c9")
+			(uuid "d766efd4-d4d7-4a55-998a-13a82138b372")
 		)
 		(pin "2"
-			(uuid "2cc5a56b-2f4e-4b28-b16c-b7e61814d079")
+			(uuid "8441c6b0-cbbf-48bf-9e51-d4bda51e18ca")
+		)
+		(pin "3"
+			(uuid "3e0429ba-c3c7-4a27-85a4-e2c7c6906753")
+		)
+		(pin "5"
+			(uuid "e29ae3cb-7d97-4a4e-990b-9c5c03d82522")
+		)
+		(pin "7"
+			(uuid "65f1757a-930e-4b94-ba53-79f2cce2066d")
 		)
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "R20")
+					(reference "U11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Custom:OpenJumper")
-		(at 125.73 73.66 270)
+		(lib_id "power:GND")
+		(at 133.35 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2037,9 +1213,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ddb344d5-2f00-4a60-8fc2-be388937cd85")
-		(property "Reference" "U13"
-			(at 128.27 73.66 0)
+		(uuid "9ced9a18-f891-46db-857e-1ae2d30afd0e")
+		(property "Reference" "#PWR072"
+			(at 133.35 96.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2048,8 +1225,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 125.73 73.66 0)
+		(property "Value" "GND"
+			(at 133.35 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2058,8 +1235,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Foot:Jumper_NO"
-			(at 125.73 73.66 0)
+		(property "Footprint" ""
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2070,7 +1247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 73.66 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2080,8 +1257,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 125.73 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2092,15 +1269,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "88c8197f-6a7b-4603-a42c-63793a467a73")
-		)
-		(pin "2"
-			(uuid "d5ab2357-bc97-4b8e-80db-ef957b703b0c")
+			(uuid "da91677f-d5e1-4329-ad53-29112e640d2a")
 		)
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/d294410d-228e-40f6-af22-786adbb6924d"
-					(reference "U13")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
