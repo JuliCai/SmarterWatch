@@ -160,45 +160,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TCR2EE10"
+		(symbol "Regulator_Linear:AP2112K-3.3"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U6"
-				(at 0 9.3218 0)
+			(property "Reference" "U"
+				(at -5.08 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "TCR2EE10"
-				(at 0 7.0104 0)
+			(property "Value" "AP2112K-3.3"
+				(at 0 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&prodName=TCR2EF45"
-				(at -6.35 6.35 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -208,7 +202,18 @@
 					)
 				)
 			)
-			(property "Description" "200mA Low-dropout Voltage Regulator, Vout 1.0V, Vin up to 5.5V, SOT-553"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -219,7 +224,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TOSHIBA LDO voltage regulator"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -230,7 +235,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?553*"
+			(property "ki_fp_filters" "SOT?23?5*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -241,10 +246,10 @@
 					)
 				)
 			)
-			(symbol "TCR2EE10_0_1"
+			(symbol "AP2112K-3.3_0_1"
 				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -254,11 +259,11 @@
 					)
 				)
 			)
-			(symbol "TCR2EE10_1_1"
-				(pin input line
-					(at -10.16 -2.54 0)
+			(symbol "AP2112K-3.3_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "CTRL"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -291,10 +296,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 2.54 0)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "VIN"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -309,10 +314,11 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 10.16 2.54 180)
+				(pin no_connect line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "VOUT"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -327,11 +333,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 -2.54 180)
+				(pin power_out line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -744,468 +749,146 @@
 		)
 	)
 	(junction
-		(at 167.64 92.71)
+		(at 121.92 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "83c1289a-2f42-426e-9a07-333f77b222d9")
+		(uuid "576c6025-dfc7-4d51-9598-254f99bc08fc")
 	)
 	(junction
-		(at 133.35 95.25)
+		(at 106.68 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8dfc5222-3a4c-407c-a81f-ba88321d87c8")
+		(uuid "aa120a79-4543-4093-9751-34502c1f1ec5")
 	)
 	(junction
-		(at 177.8 105.41)
+		(at 147.32 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4d0f991-0918-40d2-8e78-2c4c4731f854")
+		(uuid "bb27111f-71b2-4481-b7cf-84e4afd72161")
 	)
 	(wire
 		(pts
-			(xy 177.8 102.87) (xy 177.8 105.41)
+			(xy 125.73 95.25) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03910041-4853-47f8-b42b-82f2f1dd3b73")
+		(uuid "039580f6-3dde-4c2e-9ef1-b59f31d5e7ab")
 	)
 	(wire
 		(pts
-			(xy 177.8 92.71) (xy 177.8 95.25)
+			(xy 106.68 92.71) (xy 121.92 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1582d8b4-d020-42c1-842e-18e17524b18e")
+		(uuid "1f2bea4b-03cf-4b32-9ba5-adf830f881aa")
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 177.8 92.71)
+			(xy 147.32 92.71) (xy 152.4 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e58c712-62e3-4ce2-94fc-c96022eb53c9")
+		(uuid "2ce6f2e3-963b-493a-9939-3466b7a65b2a")
 	)
 	(wire
 		(pts
-			(xy 177.8 105.41) (xy 177.8 106.68)
+			(xy 147.32 92.71) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33d7c394-8dab-45b3-bfcc-606d6a7db484")
+		(uuid "347126c8-e26b-45b1-b6c9-af508a6af969")
 	)
 	(wire
 		(pts
-			(xy 160.02 95.25) (xy 167.64 95.25)
+			(xy 152.4 92.71) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3664065d-cf09-4bf7-b7c0-52a29cdbf1af")
+		(uuid "3655aa6e-86af-47de-8f08-91996946d46a")
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 133.35 100.33)
+			(xy 106.68 101.6) (xy 106.68 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ced3132-4f38-4215-9672-d698808b6d04")
+		(uuid "37e153d4-208a-45f6-87f3-9b56590c6fca")
 	)
 	(wire
 		(pts
-			(xy 167.64 85.09) (xy 167.64 92.71)
+			(xy 106.68 92.71) (xy 101.6 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7deba16c-2b9c-4fd8-9fef-dd9006e48cb3")
+		(uuid "5988c1c6-c47d-4728-a0f6-e6027c148cc1")
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 167.64 95.25)
+			(xy 140.97 92.71) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "914c124f-783b-4474-93d3-840dfa2a09eb")
+		(uuid "613a4293-6cb3-430f-ae86-ce31c616ecc2")
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 139.7 95.25)
+			(xy 121.92 92.71) (xy 125.73 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c00f982a-4a43-4e66-bf30-b2643709ef0d")
+		(uuid "6c7e6320-fb2c-41c0-ae38-8476b863d8de")
 	)
 	(wire
 		(pts
-			(xy 114.3 95.25) (xy 133.35 95.25)
+			(xy 147.32 101.6) (xy 147.32 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cff4d076-b4dd-4834-ac09-fd841ebb1afb")
+		(uuid "96a6a451-858e-4633-a3bd-c31d11456988")
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 177.8 105.41)
+			(xy 106.68 92.71) (xy 106.68 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa9616ee-45d9-4b5f-a4a3-cde9d94047fc")
+		(uuid "aaf54858-96e9-45e8-ac43-937afc25f83a")
 	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 133.35 100.33)
+			(xy 121.92 92.71) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff92a057-a165-4147-be47-6f655ebe6d55")
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 167.64 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "544208d9-46cb-49c8-99e6-ba1ebcf8d53f")
-		(property "Reference" "#PWR010"
-			(at 167.64 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 167.64 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 167.64 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "988f50a7-618b-4e59-8cb6-60d097652a29")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TCR2EE10")
-		(at 149.86 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b2f7379-12ed-4977-ac0a-5415b861e082")
-		(property "Reference" "U3"
-			(at 149.86 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCR2EE10"
-			(at 149.86 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Foot:SOT-25   SMV_TOS"
-			(at 149.86 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&prodName=TCR2EF45"
-			(at 143.51 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "200mA Low-dropout Voltage Regulator, Vout 1.0V, Vin up to 5.5V, SOT-553"
-			(at 149.86 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c256c002-4e50-41c9-8529-8947f3f690a7")
-		)
-		(pin "2"
-			(uuid "78e358c0-a142-41b2-8ad5-06e51c423a10")
-		)
-		(pin "3"
-			(uuid "c3d41561-e871-41b4-9eed-30b28d5a40ec")
-		)
-		(pin "4"
-			(uuid "c1246e5f-3b5a-4c27-9b92-1e73d34b06d9")
-		)
-		(pin "5"
-			(uuid "297e6c1c-74c8-4c1c-beb8-d9014e7bd572")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 114.3 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf21b07c-e655-49df-aeca-2fe0079444f1")
-		(property "Reference" "#PWR09"
-			(at 114.3 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 114.3 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 114.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f487f4a-474e-409b-865d-cc0a40196906")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 177.8 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4fc59fa-c029-47ba-9774-adc35bc8d109")
-		(property "Reference" "#PWR011"
-			(at 177.8 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6ed1869-fcb9-4675-a137-7b9e7c22c434")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "db0a6939-ee26-492f-85ec-8d258f116c5e")
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 99.06 0)
+		(at 106.68 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1214,31 +897,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e85ef7a7-d88b-44c4-ae05-ff86d4af7760")
-		(property "Reference" "C4"
-			(at 181.61 97.7899 0)
+		(uuid "09e4bc3e-8197-4a1f-8a61-6d43bb9aad08")
+		(property "Reference" "C29"
+			(at 110.49 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1 uF"
-			(at 181.61 100.3299 0)
+		(property "Value" "1 uf"
+			(at 110.49 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 178.7652 102.87 0)
+			(at 105.7148 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1249,7 +932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 99.06 0)
+			(at 106.68 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1260,7 +943,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 99.06 0)
+			(at 106.68 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1271,15 +954,576 @@
 			)
 		)
 		(pin "1"
-			(uuid "58378bc6-371a-49db-91e4-ae4684543d1e")
+			(uuid "311aba12-164a-4b20-b3cc-aa97a8e16002")
 		)
 		(pin "2"
-			(uuid "73877766-117c-4004-ac15-9794f8968be6")
+			(uuid "1ee75e52-0939-4d47-b915-7644c5afefe3")
 		)
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
-					(reference "C4")
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.4 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "293335a9-80ab-4801-82e6-8c53390a0ae2")
+		(property "Reference" "#PWR055"
+			(at 148.59 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 152.908 87.376 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.4 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7e2221d-374b-4b73-b4ff-b46fa3ea30b6")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34a260da-929c-4d72-9920-d5065fedc82c")
+		(property "Reference" "#PWR057"
+			(at 147.32 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3648fc2-a647-46d2-b1d4-3833c3b624c3")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64645d85-b52a-4574-86ec-8784ec3668b6")
+		(property "Reference" "#PWR058"
+			(at 106.68 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "577352f6-1fd5-4c1f-9cf6-f89e85f48a90")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 133.35 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb32da23-6bbb-48a1-bcb2-4af40690e45b")
+		(property "Reference" "U25"
+			(at 133.35 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 133.35 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 133.35 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 133.35 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 133.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "72a0c41f-2aea-4c5e-a647-720770964f8f")
+		)
+		(pin "4"
+			(uuid "1f351488-c531-4162-a61b-ecf96c87081c")
+		)
+		(pin "2"
+			(uuid "2bfc5523-c597-4baf-a7a3-8e51ce2f0b65")
+		)
+		(pin "3"
+			(uuid "2b3c8129-75e9-4a93-8e7f-d92434ac84be")
+		)
+		(pin "1"
+			(uuid "2c50194d-aa6a-4087-88d0-d7e09278e6e7")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
+					(reference "U25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 101.6 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceb15379-e319-4313-86e2-b5371077f776")
+		(property "Reference" "#PWR059"
+			(at 105.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 100.33 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64d136c7-db2f-47b3-8ccb-251f9c788d87")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef31c8e5-6f5d-4d2f-8192-e873a05e2605")
+		(property "Reference" "#PWR054"
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ac4244b-ce9f-4e23-b9fe-2b1e132f8da3")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c46158-77b0-4844-a9e5-6c3410d2f485")
+		(property "Reference" "C28"
+			(at 151.13 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1 uf"
+			(at 151.13 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 146.3548 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8228be1-06b3-4c2e-82bc-a129ea4c7c3b")
+		)
+		(pin "2"
+			(uuid "dada6660-33ae-4476-9c8b-b2aa8048f30b")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a81d0056-8f62-4a8c-9881-76225b75ad2c"
+					(reference "C28")
 					(unit 1)
 				)
 			)
