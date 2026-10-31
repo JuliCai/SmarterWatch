@@ -160,6 +160,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1696,6 +1897,30 @@
 		(uuid "0627b66d-e560-4c82-810b-4c23f61d47c6")
 	)
 	(no_connect
+		(at 71.12 85.09)
+		(uuid "06a12559-e4bb-416d-be57-02fe189e71bb")
+	)
+	(no_connect
+		(at 106.68 105.41)
+		(uuid "0ef55513-67da-4f42-a25e-5652ec7376fe")
+	)
+	(no_connect
+		(at 106.68 113.03)
+		(uuid "1053373a-dfdc-4179-b62d-686239929c97")
+	)
+	(no_connect
+		(at 71.12 90.17)
+		(uuid "1a8c257d-9d02-46e9-ad6a-5f8165668860")
+	)
+	(no_connect
+		(at 71.12 92.71)
+		(uuid "5856a748-4335-4faf-8aac-4188fb12625d")
+	)
+	(no_connect
+		(at 106.68 74.93)
+		(uuid "6567418b-d1f0-4c76-8e3d-91664abd8a4e")
+	)
+	(no_connect
 		(at 104.14 87.63)
 		(uuid "6cf57c83-2879-4a08-b0d6-06fc32fc07a5")
 	)
@@ -1708,8 +1933,24 @@
 		(uuid "99f3785a-f493-4c8a-9c86-e5b59072e54a")
 	)
 	(no_connect
+		(at 71.12 87.63)
+		(uuid "aaa7e13a-1f64-49fc-911f-2ba2cd844957")
+	)
+	(no_connect
+		(at 106.68 77.47)
+		(uuid "b5aab5d5-ebb0-4150-add2-3b7966aab659")
+	)
+	(no_connect
 		(at 104.14 110.49)
 		(uuid "c5e6f19a-4511-4abc-b474-545f8eea7eb8")
+	)
+	(no_connect
+		(at 106.68 115.57)
+		(uuid "e8d02432-136d-45e0-81cd-ef8c510cd7d0")
+	)
+	(no_connect
+		(at 106.68 85.09)
+		(uuid "f997e823-b27b-43ec-936b-d33cf301f552")
 	)
 	(wire
 		(pts
@@ -1793,6 +2034,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 90.17) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584610c7-46c3-43d3-b466-c2873f892f19")
+	)
+	(wire
+		(pts
 			(xy 69.85 54.61) (xy 69.85 55.88)
 		)
 		(stroke
@@ -1800,6 +2051,16 @@
 			(type default)
 		)
 		(uuid "5dd2734d-945f-4760-b4b4-096172f110b1")
+	)
+	(wire
+		(pts
+			(xy 104.14 115.57) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ceaf67-0f5e-4f65-99d5-3e3d3f4641c0")
 	)
 	(wire
 		(pts
@@ -1830,6 +2091,16 @@
 			(type default)
 		)
 		(uuid "7426e398-f82a-4eb8-ad33-d4eda6be70c0")
+	)
+	(wire
+		(pts
+			(xy 104.14 77.47) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74348ec1-88eb-4703-a4ce-2d91397555cd")
 	)
 	(wire
 		(pts
@@ -1873,6 +2144,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 105.41) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf15c58-06f4-4159-bf4f-ef275c537570")
+	)
+	(wire
+		(pts
 			(xy 58.42 82.55) (xy 60.96 82.55)
 		)
 		(stroke
@@ -1883,6 +2164,36 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a22b5e-b14e-4ea9-aace-5dd9f29a1aea")
+	)
+	(wire
+		(pts
+			(xy 104.14 113.03) (xy 106.68 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1a3da2-4431-47a9-9f30-2cd07690014a")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a234aab9-6038-493b-8b2a-9901649add89")
+	)
+	(wire
+		(pts
 			(xy 88.9 54.61) (xy 88.9 64.77)
 		)
 		(stroke
@@ -1890,6 +2201,16 @@
 			(type default)
 		)
 		(uuid "a77f4e91-f35b-4333-85a6-a1c83288ccd6")
+	)
+	(wire
+		(pts
+			(xy 71.12 85.09) (xy 73.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa93fec9-aa36-4008-b220-f710501bf0aa")
 	)
 	(wire
 		(pts
@@ -1971,6 +2292,26 @@
 		)
 		(uuid "f46cb385-f3aa-4830-a712-7fb55de4b7c5")
 	)
+	(wire
+		(pts
+			(xy 104.14 74.93) (xy 106.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72fce93-2f96-4d2a-b7ba-a8f302a3fe53")
+	)
+	(wire
+		(pts
+			(xy 71.12 87.63) (xy 73.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f991fb53-500b-47c3-a8d0-b8bb751ec763")
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 73.66 95.25 180)
@@ -2019,6 +2360,30 @@
 			)
 		)
 	)
+	(global_label "VIB_EN"
+		(shape input)
+		(at 73.66 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "337802e9-b950-4b25-8c28-a4b17ebc42f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.2643 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 257.81 62.23 270)
@@ -2043,6 +2408,30 @@
 			)
 		)
 	)
+	(global_label "BTN1"
+		(shape input)
+		(at 104.14 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40e51daa-0997-46fd-b36e-8fdd616c9c14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.9028 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 73.66 97.79 180)
@@ -2056,30 +2445,6 @@
 		(uuid "4cfe667f-905b-41d3-b658-4e4ec31dfd1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.1672 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RGB_DIN"
-		(shape input)
-		(at 73.66 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ef70b6c-13fd-404d-87d1-ef8ea7392379")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.6919 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,6 +2501,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Screen_A0"
+		(shape input)
+		(at 73.66 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b4d70e9-bb73-47e7-aa17-7b5b5e717172")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.9986 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -2200,6 +2589,30 @@
 		(uuid "82b2e706-7ac4-4813-8284-2506156e1c03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.0786 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Screen_Reset"
+		(shape input)
+		(at 73.66 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "918fe3b7-fa84-4dfc-90b5-51c088725e25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.0957 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,6 +2720,54 @@
 			)
 		)
 	)
+	(global_label "BTN2"
+		(shape input)
+		(at 104.14 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e985a9ac-bbad-42bf-b42d-506b6757645d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.9028 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BTN3"
+		(shape input)
+		(at 104.14 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1407924-78c1-4c03-ade4-b46aec2f1c5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.9028 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Screen_CS"
 		(shape input)
 		(at 252.73 62.23 270)
@@ -2328,6 +2789,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "BTN4"
+		(shape input)
+		(at 104.14 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f68f46d7-f870-4aa5-af33-4c22c9f173ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.9028 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -2805,6 +3290,85 @@
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a00a754a-aed5-4908-97a0-bc1d443d4203"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28ce5c3d-423a-4b3d-bd1e-b1310eda4fc6")
+		(property "Reference" "#PWR09"
+			(at 52.07 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8992e21f-4242-4780-b9e9-abd2e50d4b8b")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a00a754a-aed5-4908-97a0-bc1d443d4203"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3329,6 +3893,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 69.85 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c67124b-a060-4397-97b1-aeb569b25800")
+		(property "Reference" "D2"
+			(at 68.2625 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 68.2625 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 69.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9dc4624-9448-4ab3-b592-cfe5e79f19ba")
+		)
+		(pin "1"
+			(uuid "020cf4e1-2d72-4f22-8642-aad75a64b90b")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a00a754a-aed5-4908-97a0-bc1d443d4203"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 270.51 54.61 0)
 		(unit 1)
@@ -3637,6 +4292,86 @@
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a00a754a-aed5-4908-97a0-bc1d443d4203"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b34e918-cc6b-415d-abfc-5f57c4cdffb7")
+		(property "Reference" "R27"
+			(at 62.23 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 62.23 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04eb327c-f0c9-4819-a440-a1ff5ce1285f")
+		)
+		(pin "2"
+			(uuid "a0b625ca-c5fa-43ac-9982-04fbd6918486")
+		)
+		(instances
+			(project "Smarter Watch Stuff"
+				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/a00a754a-aed5-4908-97a0-bc1d443d4203"
+					(reference "R27")
 					(unit 1)
 				)
 			)

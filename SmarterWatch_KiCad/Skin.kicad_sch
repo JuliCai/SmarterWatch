@@ -1028,12 +1028,6 @@
 		)
 	)
 	(junction
-		(at 154.94 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f8e27c2-6272-4bf6-8cfa-135910565405")
-	)
-	(junction
 		(at 172.72 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1062,16 +1056,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1a2fd84-c822-47ff-aaa8-1fb733aec9aa")
-	)
-	(wire
-		(pts
-			(xy 154.94 106.68) (xy 154.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0261ecad-efbf-421c-9700-19c4c3e75770")
 	)
 	(wire
 		(pts
@@ -1135,16 +1119,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 154.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "427b01b9-5506-403d-b75b-66ac8862387c")
-	)
-	(wire
-		(pts
 			(xy 97.79 93.98) (xy 99.06 93.98)
 		)
 		(stroke
@@ -1152,16 +1126,6 @@
 			(type default)
 		)
 		(uuid "44f1c5a1-2baa-4879-8d1e-03fcb1a37c68")
-	)
-	(wire
-		(pts
-			(xy 139.7 99.06) (xy 154.94 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bd049c2-71de-4a34-8c16-71f464402871")
 	)
 	(wire
 		(pts
@@ -1235,13 +1199,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 162.56 99.06)
+			(xy 139.7 99.06) (xy 162.56 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c96d885a-8bf7-4c71-a749-632d5001b7ac")
+	)
+	(wire
+		(pts
+			(xy 162.56 97.79) (xy 172.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95c302e-4a1e-49eb-bdcb-ba8b830aee56")
 	)
 	(wire
 		(pts
@@ -1378,86 +1352,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom:OpenJumper")
-		(at 167.64 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f02320f-0c33-4b66-b572-382de89177bd")
-		(property "Reference" "U14"
-			(at 167.64 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 167.64 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Foot:Jumper_NO"
-			(at 167.64 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29876dca-de26-4bf7-88d1-f1ebaee514a3")
-		)
-		(pin "2"
-			(uuid "7564c0a5-8307-436c-a1bb-e714a1a7589f")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/596be1bd-3875-49a3-8dbd-4c169cd37f92"
-					(reference "U14")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2035,88 +1929,6 @@
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/596be1bd-3875-49a3-8dbd-4c169cd37f92"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 102.87 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82d60077-caec-4409-94ad-b0edbc6a8289")
-		(property "Reference" "R27"
-			(at 157.48 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 157.48 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 156.718 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "44787fcd-6834-49e5-a95c-0d8e583b0336")
-		)
-		(pin "1"
-			(uuid "6cec9b8d-f43d-4414-8a32-71ba9d828308")
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/596be1bd-3875-49a3-8dbd-4c169cd37f92"
-					(reference "R27")
 					(unit 1)
 				)
 			)

@@ -863,17 +863,29 @@
 		(color 0 0 0 0)
 		(uuid "2e68cafe-48f7-453e-bd3e-1b141d7e242e")
 	)
+	(junction
+		(at 92.71 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "424ad1cc-15cf-40e5-a539-cef98f0270dd")
+	)
 	(no_connect
 		(at 168.91 96.52)
 		(uuid "4eafac1f-d258-4639-a22a-2cde2f275bdb")
 	)
 	(no_connect
-		(at 97.79 101.6)
-		(uuid "acf1e320-e91a-4746-8771-f6b48bcaa47e")
-	)
-	(no_connect
 		(at 97.79 104.14)
 		(uuid "e92f3f13-7534-4fb5-86d3-85b40cdbbc92")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 97.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1358c06f-dfe0-4ef3-9b14-6b582811d7da")
 	)
 	(wire
 		(pts
@@ -887,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 96.52) (xy 92.71 107.95)
+			(xy 92.71 96.52) (xy 92.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -994,6 +1006,16 @@
 			(type default)
 		)
 		(uuid "f6bea5f6-2bcb-4478-bc11-543073bdd134")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd14b8c5-7949-4a2c-9ada-22dc39b80198")
 	)
 	(global_label "SDA"
 		(shape input)
