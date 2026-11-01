@@ -1290,7 +1290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ddea53d-76db-4f2c-9f70-6073986f42b9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 38.1 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1351,7 +1351,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ede32b43-0075-4e9b-9527-55f10148fcb6"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1369,7 +1369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fa86286-3a45-4b23-bb1b-3be40e090589")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 88.9 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -1430,7 +1430,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ede32b43-0075-4e9b-9527-55f10148fcb6"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1458,7 +1458,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "HRIR"
 			(at 80.9625 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1549,7 +1549,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "HRGREEN"
 			(at 101.2825 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1559,7 +1559,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 102.87 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1630,7 +1630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5613247f-8b45-436b-856c-3d28bcd2f2d6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 110.49 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -1691,7 +1691,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ede32b43-0075-4e9b-9527-55f10148fcb6"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1719,7 +1719,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "HRGREEN"
 			(at 92.3925 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1729,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 93.98 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -1800,7 +1800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b4ebb2c-5eee-4564-bf56-0d7d8a98af47")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 83.82 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1860,7 +1860,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ede32b43-0075-4e9b-9527-55f10148fcb6"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1878,7 +1878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcc08fd5-a7c8-4a99-a819-3284e7b9a3d0")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 90.17 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -1939,7 +1939,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ede32b43-0075-4e9b-9527-55f10148fcb6"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -1957,7 +1957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6a359d5-c211-4180-8a4e-5a913da8b53b")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 87.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2018,7 +2018,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ede32b43-0075-4e9b-9527-55f10148fcb6"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2036,7 +2036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6da6b1c-3303-4049-bf42-93efa3fa0f1d")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 87.63 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,7 +2058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 84.7852 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2100,7 +2100,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ede32b43-0075-4e9b-9527-55f10148fcb6"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2271,7 +2271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffbe8534-6d90-4d43-a90e-4abb42f81b4f")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 38.1 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2291,7 +2291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.1 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -2333,7 +2333,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/ede32b43-0075-4e9b-9527-55f10148fcb6"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)

@@ -236,52 +236,6 @@
 		)
 	)
 	(sheet
-		(at 13.97 48.26)
-		(size 27.94 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "4e6e0c31-a114-41a6-91d2-e39a92f1b389")
-		(property "Sheetname" "MOSFET"
-			(at 13.97 47.5484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MOSFET.kicad_sch"
-			(at 13.97 86.9446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Smarter Watch Stuff"
-				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 90.17 91.44)
 		(size 33.02 31.75)
 		(exclude_from_sim no)

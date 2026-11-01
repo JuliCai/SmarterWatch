@@ -50,23 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
-          "fill_mode": 0,
-          "hatch_gap": 1.5,
-          "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 0,
-          "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -178,7 +162,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +173,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +184,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -528,7 +509,6 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
-      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -576,8 +556,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -792,7 +772,7 @@
         "uuid": "52181fb0-1be8-41da-83b2-7d5a62778ff4"
       }
     ],
-    "used_designators": "#PWR1-119,#PWR128-143,A1,BT1,C1-27,C30-32,D1-8,FB1-6,J1-6,J10,L1,M1,Q1,R1-40,SW1-8,U1-24,U29-30",
+    "used_designators": "U1-19,SW1-6,R1-29,L1,#PWR1-90,D1-5,C1-22,BT1,M1,J1-5",
     "variants": []
   },
   "sheets": [
@@ -819,10 +799,6 @@
     [
       "32cbc301-99d8-4fa0-b16c-40efe0d038ae",
       "Humidity"
-    ],
-    [
-      "4e6e0c31-a114-41a6-91d2-e39a92f1b389",
-      "MOSFET"
     ],
     [
       "01b5dd88-d733-4c4b-897c-9901ed06fbc3",

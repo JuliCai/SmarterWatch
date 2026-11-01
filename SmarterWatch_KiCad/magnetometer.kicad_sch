@@ -1077,7 +1077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06edc7a2-ae7c-4c5b-beba-8d171656912b")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR073"
 			(at 92.71 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -1137,7 +1137,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/b9a66531-3de1-40e3-a748-3f34f0ced924"
-					(reference "#PWR092")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -1155,7 +1155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe9371e-4ccc-4aed-82f6-78868210ab0f")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR075"
 			(at 181.61 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -1215,7 +1215,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/b9a66531-3de1-40e3-a748-3f34f0ced924"
-					(reference "#PWR094")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -1233,7 +1233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84127911-4147-416d-a19d-3fd99e0dc3c9")
-		(property "Reference" "C20"
+		(property "Reference" "C16"
 			(at 96.52 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1255,7 +1255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.6752 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1297,7 +1297,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/b9a66531-3de1-40e3-a748-3f34f0ced924"
-					(reference "C20")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1315,7 +1315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c2f12b-f2d8-446c-b090-4cc046a04633")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR072"
 			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1376,7 +1376,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/b9a66531-3de1-40e3-a748-3f34f0ced924"
-					(reference "#PWR091")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -1394,7 +1394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be36ccfa-acb8-43e9-9b5a-5a5b1b850872")
-		(property "Reference" "U18"
+		(property "Reference" "U16"
 			(at 133.35 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1500,7 +1500,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/b9a66531-3de1-40e3-a748-3f34f0ced924"
-					(reference "U18")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -1518,7 +1518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8073f4c-a85a-40b9-884f-18f498d841b3")
-		(property "Reference" "C21"
+		(property "Reference" "C17"
 			(at 172.72 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1538,7 +1538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 176.53 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -1580,7 +1580,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/b9a66531-3de1-40e3-a748-3f34f0ced924"
-					(reference "C21")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1598,7 +1598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8b94d67-add1-4fd7-9bc1-0763d53092e2")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR074"
 			(at 176.53 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1658,7 +1658,7 @@
 		(instances
 			(project "Smarter Watch Stuff"
 				(path "/52181fb0-1be8-41da-83b2-7d5a62778ff4/b9a66531-3de1-40e3-a748-3f34f0ced924"
-					(reference "#PWR093")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
