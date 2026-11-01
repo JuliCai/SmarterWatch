@@ -994,7 +994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:sideBTN"
 			(at 114.3 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1312,7 +1312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:sideBTN"
 			(at 114.3 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -1392,7 +1392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:sideBTN"
 			(at 114.3 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -1630,7 +1630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Foot:sideBTN"
 			(at 114.3 143.51 0)
 			(hide yes)
 			(show_name no)

@@ -1468,7 +1468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 82.55 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2138,7 +2138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BH1792GLC-E2:XDCR_BH1792GLC-E2"
+		(property "Footprint" "Custom_Foot:BH1792GLC-E2"
 			(at 63.5 128.27 0)
 			(hide yes)
 			(show_name no)
